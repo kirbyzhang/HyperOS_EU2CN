@@ -31,6 +31,7 @@ public final class KsuBackgroundClient {
     private int managerUid;
     private String boot;
     private String managerSha;
+    private ManagerProviderClient provider;
 
     public static void main(String[] args) {
         KsuBackgroundClient client = new KsuBackgroundClient();
@@ -93,6 +94,14 @@ public final class KsuBackgroundClient {
             System.out.println("BACKGROUND_COMPLETE changed=0 pending=" + count);
             return;
         }
+        try (ManagerProviderClient client = new ManagerProviderClient(managerUid)) {
+            provider = client;
+            applyTargets(targets, baseline, count);
+        }
+        System.out.println("BACKGROUND_COMPLETE changed=" + completed.size() + " pending=0；新进程挂载需完整重启。");
+    }
+
+    private void applyTargets(Map<Integer, Set<String>> targets, Map<Integer, byte[]> baseline, int count) throws Exception {
         File files = new File("/data/user/0/" + BridgeProtocol.MANAGER + "/files");
         directory = new File(files, BridgeProtocol.DIRECTORY);
         MountPolicy.require(files.isDirectory() && !Files.isSymbolicLink(directory.toPath()), "管理器私有目录无效");
@@ -133,17 +142,19 @@ public final class KsuBackgroundClient {
             if (old != null) request.put("expectedUseDefault", old[272] == 1).put("expectedUmount", old[273] == 1);
             JSONObject response = call(request, uid);
             MountPolicy.require(response.optBoolean("ok"), response.optString("error", "后台接口失败"));
-            byte[] persisted = null;
-            Exception last = null;
-            for (int i = 0; i < 50; i++) {
-                try {
-                    persisted = stableProfiles();
-                    MountPolicy.verifyDelta(latest, MountPolicy.decode(persisted), uid);
-                    last = null;
-                    break;
-                } catch (Exception error) { last = error; Thread.sleep(100); }
-            }
-            if (last != null) throw last;
+            System.out.println("UID " + uid + " 管理器已回读，正在核对磁盘保存…");
+            byte[] persisted = ProfilePersistence.await(latest, uid, new ProfilePersistence.Access() {
+                @Override public byte[] read() throws Exception { return stableProfiles(); }
+                @Override public long now() { return SystemClock.elapsedRealtime(); }
+                @Override public void pause(long millis) throws InterruptedException { Thread.sleep(millis); }
+                @Override public void wakeInit() throws Exception {
+                    // Some kernels queue persistence as PID1 task_work. A normal
+                    // property event wakes init's main loop without a signal,
+                    // service restart, user setting change or allowlist write.
+                    command("/system/bin/setprop", "sys.eu2cn.ksu_profile_sync",
+                            Long.toString(SystemClock.elapsedRealtimeNanos()));
+                }
+            }, 30000);
             latest = MountPolicy.decode(persisted);
             save("profiles-after-" + uid + ".bin", persisted);
             completed.add(uid);
@@ -151,7 +162,6 @@ public final class KsuBackgroundClient {
         }
         sameProfiles(latest, MountPolicy.decode(stableProfiles()));
         save("profiles-after.bin", stableProfiles());
-        System.out.println("BACKGROUND_COMPLETE changed=" + completed.size() + " pending=0；新进程挂载需完整重启。");
     }
 
     private JSONObject call(JSONObject input, int uid) throws Exception {
@@ -177,9 +187,12 @@ public final class KsuBackgroundClient {
         String prefix = input.getString("operation") + "-" + uid;
         save("request-" + prefix + ".json", input.toString(2).getBytes(StandardCharsets.UTF_8));
         try {
-            String broadcast = command("/system/bin/am", "broadcast", "--user", "0", "-f", "0x01000020", "-n",
-                    BridgeProtocol.RECEIVER, "-a", BridgeProtocol.ACTION, "--es", "nonce", nonce);
-            save("broadcast-" + prefix + ".txt", broadcast.getBytes(StandardCharsets.UTF_8));
+            String direct = provider.request(nonce);
+            save("provider-" + prefix + ".json", direct.getBytes(StandardCharsets.UTF_8));
+            JSONObject returned = new JSONObject(direct);
+            MountPolicy.require(nonce.equals(returned.optString("nonce"))
+                    && returned.optInt("protocol") == BridgeProtocol.VERSION && returned.optInt("uid", -1) == uid,
+                    returned.optString("error", "后台响应身份不符"));
             File result = new File(directory, "result.json");
             for (int i = 0; i < 50; i++) {
                 if (result.isFile() && !Files.isSymbolicLink(result.toPath())) {

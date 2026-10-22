@@ -5,6 +5,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ComponentName;
 import android.content.pm.ActivityInfo;
+import android.content.ContentProvider;
+import android.os.Binder;
+import android.os.Bundle;
 import android.os.SystemClock;
 import java.io.File;
 import java.nio.charset.StandardCharsets;
@@ -27,13 +30,32 @@ public final class KsuBackgroundModule implements IXposedHookLoadPackage {
     @Override public void handleLoadPackage(final XC_LoadPackage.LoadPackageParam app) {
         if (!BridgeProtocol.MANAGER.equals(app.packageName) || !BridgeProtocol.MANAGER.equals(app.processName)) return;
         try {
+            final Class<?> fileProvider = XposedHelpers.findClass("androidx.core.content.FileProvider", app.classLoader);
+            XposedHelpers.findAndHookMethod(ContentProvider.class, "call", String.class, String.class, Bundle.class,
+                    new XC_MethodHook() {
+                @Override protected void beforeHookedMethod(MethodHookParam param) {
+                    if (!fileProvider.isInstance(param.thisObject) || !BridgeProtocol.ACTION.equals(param.args[0])
+                            || Binder.getCallingUid() != 0) return;
+                    Context context = ((ContentProvider) param.thisObject).getContext();
+                    Intent intent = new Intent(BridgeProtocol.ACTION).putExtra("nonce", (String) param.args[1]);
+                    JSONObject response = dispatch(context, intent, app.classLoader, true);
+                    Bundle result = new Bundle();
+                    result.putString("eu2cn.result", response.toString());
+                    param.setResult(result);
+                }
+            });
+            XposedBridge.log("EU2CNKsuBridge: provider ready");
+        } catch (Throwable error) {
+            XposedBridge.log("EU2CNKsuBridge: provider unavailable " + error.getClass().getSimpleName());
+        }
+        try {
             XposedHelpers.findAndHookMethod("androidx.profileinstaller.ProfileInstallReceiver", app.classLoader,
                     "onReceive", Context.class, Intent.class, new XC_MethodHook() {
                 @Override protected void beforeHookedMethod(MethodHookParam param) {
                     Intent intent = (Intent) param.args[1];
                     if (intent == null || !BridgeProtocol.ACTION.equals(intent.getAction())) return;
                     param.setResult(null);
-                    JSONObject result = dispatch((Context) param.args[0], intent, app.classLoader);
+                    JSONObject result = dispatch((Context) param.args[0], intent, app.classLoader, false);
                     BroadcastReceiver receiver = (BroadcastReceiver) param.thisObject;
                     if (receiver.isOrderedBroadcast()) receiver.setResultCode(result.optBoolean("ok") ? 0 : 1);
                 }
@@ -44,7 +66,7 @@ public final class KsuBackgroundModule implements IXposedHookLoadPackage {
         }
     }
 
-    private static synchronized JSONObject dispatch(Context context, Intent intent, ClassLoader loader) {
+    private static synchronized JSONObject dispatch(Context context, Intent intent, ClassLoader loader, boolean providerCall) {
         JSONObject output = new JSONObject();
         File directory = new File(context.getFilesDir(), BridgeProtocol.DIRECTORY);
         File request = new File(directory, "request.json");
@@ -69,9 +91,13 @@ public final class KsuBackgroundModule implements IXposedHookLoadPackage {
             BridgeProtocol.require(!consumed.exists() && !Files.isSymbolicLink(consumed.toPath()) && request.renameTo(consumed), "请求已消费或正在处理");
             ownedRequest = true;
             output.put("nonce", nonce).put("uid", uid).put("protocol", BridgeProtocol.VERSION);
-            ActivityInfo receiverInfo = context.getPackageManager().getReceiverInfo(new ComponentName(
-                    BridgeProtocol.MANAGER, "androidx.profileinstaller.ProfileInstallReceiver"), 0);
-            BridgeProtocol.require("android.permission.DUMP".equals(receiverInfo.permission), "后台接收器权限不兼容");
+            if (providerCall) {
+                BridgeProtocol.require(Binder.getCallingUid() == 0, "后台直连接口仅接受 Root 调用");
+            } else {
+                ActivityInfo receiverInfo = context.getPackageManager().getReceiverInfo(new ComponentName(
+                        BridgeProtocol.MANAGER, "androidx.profileinstaller.ProfileInstallReceiver"), 0);
+                BridgeProtocol.require("android.permission.DUMP".equals(receiverInfo.permission), "后台接收器权限不兼容");
+            }
             byte[] apk = Files.readAllBytes(new File(context.getApplicationInfo().sourceDir).toPath());
             String expectedSha = input.getString("managerSha256");
             BridgeProtocol.require(expectedSha.matches("[0-9a-f]{64}")

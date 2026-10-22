@@ -48,4 +48,5 @@ else
     exit "$helper_rc"
   ' pudding-ksu-worker "$MODDIR" "$AUDIT" "$HELPER" > "$AUDIT/result.log" 2>&1 < /dev/null &
   echo "辅助程序已启动，PID=$!。结果以日志及配置复核为准。"
+  echo '启动提示不等于已补齐。请等后台任务结束，按音量-查看结果，期间不要重复启动。'
 fi

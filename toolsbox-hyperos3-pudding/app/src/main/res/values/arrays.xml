@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposed_scopes">
+        <item>android</item>
+        <item>com.miui.securitycore</item>
+        <item>com.miui.home</item>
+        <item>com.android.systemui</item>
+        <item>com.miui.powerkeeper</item>
+        <item>com.miui.core</item>
+        <item>local.pudding.eulocalization.v4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application' version '8.10.1'
+}
+
+android {
+    namespace 'local.pudding.weathercompat'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'local.pudding.weathercompat'
+        minSdk 28
+        targetSdk 35
+        versionCode 31801
+        versionName 'OS318.0.1'
+    }
+
+    buildTypes {
+        release { minifyEnabled false }
+    }
+
+    sourceSets.main.java.srcDir '../app/src/main/java'
+    sourceSets.main.java.srcDir '../ksu-shared/src'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compileOnly 'de.robv.android.xposed:api:82'
+}

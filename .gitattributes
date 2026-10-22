@@ -1,0 +1,13 @@
+* text=auto
+*.sh text eol=lf
+gradlew text eol=lf
+*.java text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+*.ini text eol=lf
+# Empty final TSV columns are data, not accidental trailing whitespace.
+*.tsv text eol=lf whitespace=-blank-at-eol
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.jar binary

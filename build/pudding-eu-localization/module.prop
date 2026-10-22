@@ -1,0 +1,6 @@
+id=HyperOS_EU2CN
+name=HyperOS_EU2CN
+version=OS318.0.1
+versionCode=31801
+author=local-build
+description=为 HyperOS EU 按需补充国行应用，提供桌面搜索、小组件、天气、主题和电话短信等兼容功能。

@@ -1,0 +1,15 @@
+#!/sbin/sh
+umask 022
+ui_print() { echo "$1"; }
+OUTFD=$2
+ZIPFILE=$3
+if ! command -v install_module >/dev/null 2>&1; then
+  mount /data 2>/dev/null
+  [ -f /data/adb/magisk/util_functions.sh ] && . /data/adb/magisk/util_functions.sh
+fi
+if ! command -v install_module >/dev/null 2>&1; then
+  ui_print "Install this ZIP from a Magisk/KernelSU/APatch module manager."
+  exit 1
+fi
+install_module
+exit 0

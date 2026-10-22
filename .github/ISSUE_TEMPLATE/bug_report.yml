@@ -1,0 +1,22 @@
+name: 功能异常
+description: 报告安装、启动、挂载或兼容功能异常
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      description: 机型、ROM/Android、模块、KernelSU、LSPosed 和挂载后端版本。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与异常
+      description: 写明选择的组件、预期表现、实际表现，以及是否已完整重启。
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: 相关诊断
+      description: 可附模块“操作”中的相关错误。先移除账号、号码、通知内容、设备标识等个人信息，不要上传完整应用数据或私钥。

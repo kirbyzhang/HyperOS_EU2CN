@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_pass_xms_permission">
+        <item>com.android.keyguard</item>
+        <item>com.xiaomi.mipushdemo</item>
+        <item>com.os.callservice</item>
+        <item>com.android.mms</item>
+        <item>com.miui.personalassistant</item>
+        <item>com.miui.voiceassist</item>
+        <item>com.miui.tsmclient</item>
+        <item>com.mipay.wallet</item>
+        <item>com.xiaomi.payment</item>
+        <item>com.xiaomi.market</item>
+        <item>com.android.calendar</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.android.incallui</item>
+        <item>com.android.server.telecom</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.xiaomi.xmsf</item>
+        <item>com.xiaomi.smarthome</item>
+        <item>com.eg.android.AlipayGphone</item>
+    </string-array>
+</resources>

@@ -1,0 +1,489 @@
+path	bytes	sha256	package	versionCode	versionName	signerSha256
+system/product/app/PuddingEUCompatibility/PuddingEUCompatibility.apk	98957	d8bf19a64b26a61b95db9a151410e6ab93f81f6fe858f15c003be27c856f6ee8	local.pudding.weathercompat	31801	OS318.0.1	d8b7e2f5d2c184fdba6c04e1cd1746abdae3fed296095481a15643f0329db8ba
+system/product/app/CarWith/CarWith.apk	63738097	c7026f07fbb615c145f0701966ac70019d8b11678f128123f254838b7da23a67	com.miui.carlink	104000001	4.0.1-20260410	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/HybridPlatform/HybridPlatform.apk	64629991	984f18ba0627985f3a1cc2aa055e112c988bd3052993de8c8d9e837b2d4dac86	com.miui.hybrid	13070311	1.30.7.3	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MINextpay/MINextpay.apk	13752234	169626141c4f2ae0ce4a53552111e59f935151c49361948d09fbd9a9d341139f	com.miui.nextpay	1870	26.01.30.1	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MINextpay/lib/arm64/libentryexpro.so	177624	d10bebc921d720776e1e64a61932ddfea21fdd4977a66b688445b2c9694f53f7				
+system/product/app/MINextpay/lib/arm64/libuptsmaddonmi.so	776992	c41e19a7339d0f2b8174626678917307c1b11523ead567a27d49ee8cd7b52a68				
+system/product/app/MITSMClient/MITSMClient.apk	31501057	0a3699751faeaf5be3ce75609e666a8176803d5eb66fcbd3d04a4ce262d1c2c2	com.miui.tsmclient	1945	26.06.16.1.f	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MITSMClient/lib/arm64/libentryexpro.so	177624	bf60478c35a4cf90a4646620251682fd8d1caff2d775cfca75828556b2dafaab				
+system/product/app/MITSMClient/lib/arm64/libuptsmaddonmi.so	776992	9409a3c6a2eedf0a81cd3834d1c6daadfd2806f34a794d97173b0913551f6c4d				
+system/product/app/MIUIAiasstService/MIUIAiasstService.apk	23695187	30e348fa942381d810adb1d05c5a95845054f09f123064ef83a72499bd99cf65	com.xiaomi.aiasst.service	2535	6.0.3	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MIUISecurityInputMethod/MIUISecurityInputMethod.apk	1653766	2bbcf32ddb2a2f7340177c3e78679a46da7353c92e9e7df0d7c187e03e8d7761	com.miui.securityinputmethod	389	3.8.9	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MIUISuperMarket/MIUISuperMarket.apk	59558958	2dfaa7331e75f60223a18934c5209a1756ed95cf3c78b0d5464db605e81bdc63	com.xiaomi.market	40007361	4.116.1	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MIUISuperMarket/lib/arm64/libMimobileEncryption.so	231504	2387c950d83f9ad5f6f44669fb32ebfc4ad960e5acdae60697cd2eb5d8293ff6				
+system/product/app/MIUISuperMarket/lib/arm64/libglide-webp.so	448840	e9fe0a985ee336a8d67e65841d95e7cba4a4f8202fefdad18d881ba46213ccbe				
+system/product/app/MIUISuperMarket/lib/arm64/libipdetector.so	9992	b874696f791a8a67b728f126f644efcf02553f08c70d7f13191cda468b3f087e				
+system/product/app/MIUISuperMarket/lib/arm64/libkcg.so	6150432	f94f7fee1a8a07f93e567a897a6b28cadcdbce269880ac5288b6f9dc509cb23d				
+system/product/app/MIUISuperMarket/lib/arm64/libmilink.so	826288	7da41d118a737bc8d0f9a2a973fda1740f5b8906f2c51d4f91e4159164f2defb				
+system/product/app/MIUISuperMarket/lib/arm64/libmimo_1011.so	135358	6d5740b8cf1df6699a368447e842bf74db97a3f13ca25344cee00bf6f542bda1				
+system/product/app/MIUISuperMarket/lib/arm64/libmmkv.so	716840	208338949fe6d5205e5bf1b79af60f1646918100f4b9ebcf42baaaa9db66772b				
+system/product/app/MIUISuperMarket/lib/arm64/libpatcherV1.so	91048	11ff35b99e608737906a65f9a12be31f422b6040c3ad4877fe11efb9b0a73b61				
+system/product/app/MIUISuperMarket/lib/arm64/libpatcherV2.so	141200	3c8964a40585efad28194c596ff500e9e424ba3a7fd682328d9afc23284c96ff				
+system/product/app/MIUISuperMarket/lib/arm64/libpatcherV3.so	268496	b22b23743d9baf928c5ecd7e3ba306179ac2d760ed0ea898dfe7b85c74b46d07				
+system/product/app/MIUISuperMarket/lib/arm64/libpl_droidsonroids_gif.so	43016	7bc82edf7b81405efe19bc13f7b7e1350bb9331e0cc2ed45dc2b19d9367c97dc				
+system/product/app/MIUISuperMarket/lib/arm64/libsdkcore.so	151552	a5c124e7092cd13972f0f1be04ada7609658e563009898a99fc6afed2c2b70cd				
+system/product/app/MIUISuperMarket/lib/arm64/libwebgl.so	9992	a67d9b5b414032446829fe80f50f4c4c5f0a038eceaf14feb6758fbd66caaa06				
+system/product/app/MIUISuperMarket/lib/arm64/libxcrash.so	76088	6cae1d46c9142ec6200c8a597577c8531d36091156916223ce99870c678e13de				
+system/product/app/MIUISuperMarket/lib/arm64/libxcrash_dumper.so	113488	c1437431d68a552a53f4fffa6d901294b7228a6243086329e0aa90de6e7f9064				
+system/product/app/MIUISuperMarket/lib/arm64/libzstd-jni-1.5.2-3.so	571304	f7367bf8e201baaa7bcfa1e62e42451040818ea79284b05a473f8c106a72b618				
+system/product/app/MIUIThemeStore/MIUIThemeStore.apk	1592866	1dbba020bb0c14f00258b8bda7c6998909851226c269f1c95e636b443c21c611	com.miui.themestore	23	23.0	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MIUIXiaoAiSpeechEngine/MIUIXiaoAiSpeechEngine.apk	33422231	e01957d2e3fc82f2771892bbcae04f3e1b88f85b60e5dc6cb3b860007938d785	com.xiaomi.mibrain.speech	60	1.6.0	c8b0513a034f5498c182d8c4242a8c4fe0112f7c49d6228a972e76cc5b393f4d
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libaivs_jni.so	727432	652900e0bbe465e727bedb0f10043f6f287c46679d6ecd4fa065a0181a975247				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libca.so	17800	b68ad678221a6d03bb304e11acef29c10134d102f4e0d1e063c794d5ae2e5791				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libcntts.so	2953088	073179ec34040d931a05ffadffc0f37564e2695078d8b152717c3b7106a989aa				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libduiutils.so	281664	911ae310ec318f5b36afc8e5e901a625397a372e28f7cb5546fa8afc13d06d89				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libmibraindec.so	136912	470dfa3f55e537b0162ce2dcdc773bc011dc18750e0a9be0e753aa0b363eb613				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libmibrainjni.so	50888	b164e3bc306b3523a66dd577db34fdda562a194c2cf3591bbd1bb2074ac0e7d8				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libmibrainsdk.so	1145696	9f9a1e254de3edcd1cabae250fba8cde0f364de13be069995b7aa49d35304456				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libmibrainvad2.so	1509480	a35f636bfb33e6dcb3cd361ca8fa1e68feb17e2bacf5d5739cd0ab843afcdb58				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libvad2.so	1591568	b99055f3c0bc04723c2334589cc84a3ec6b5f5e30990c778d62d6df6d19b142c				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libwakeup.so	1016184	773c123fcbb848b3756db2f5b5cacd353010ae623d221a3d79d606bd158cc8a2				
+system/product/app/MIUIXiaoAiSpeechEngine/lib/arm64/libxmd.so	2309024	4498ee05f440641ba3f565c08355334e026b23209d01b5c7909ee2dcf19b917c				
+system/product/app/MiGalleryLockscreen/MiGalleryLockscreen.apk	23621258	0cec45e0400303033b3cda16d9e63b2dc07f66c2c90a68eaffb12999c1e9bca3	com.mfashiongallery.emag	2025100241	25100241-CAROUSEL	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MiMediaEditor/MiMediaEditor.apk	215827855	20465861699f9faa340259d323272b298dab64c80bcc191a2b2105379cf32f4d	com.miui.mediaeditor	203990083	2.3.0.8.3	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MiMediaEditor/lib/arm64/libCNamaSDK.so	12852808	008b15516fddcd1d878b2ddd7b11406697bc65692a0500252789f93cf028c340				
+system/product/app/MiMediaEditor/lib/arm64/libCameraToolJNI.so	72616	125c2f5425b0131ef7557b467122f8945bb5a3cca6f91fe66030c962c961c38c				
+system/product/app/MiMediaEditor/lib/arm64/libFaceBeautyWrapper.so	56576	4bd433ddb2dee37211c1d1154f87268aa05b1d8265ae33e8f75c07105c355337				
+system/product/app/MiMediaEditor/lib/arm64/libMNN.so	2438240	bf8051d11cae00a6c92038656861d8eb21cf1ca8086f44a9d2e948840da97d96				
+system/product/app/MiMediaEditor/lib/arm64/libMiFilterSDK.so	938664	f6df3a316a96e053dea28509add2cbf7ddf48a2647e38b342ca1539ca3faedda				
+system/product/app/MiMediaEditor/lib/arm64/libMiVideoSDK.so	5434120	a79c449b1f474e63b02018f086816c36c36b8613ac55037f5e139d3128740eb6				
+system/product/app/MiMediaEditor/lib/arm64/libXmStreamingSDK.so	932096	97552fe33a98dccc0fbc31f08ee0483dcd0ae49188a97c1d2ad5bdcfe54c47b7				
+system/product/app/MiMediaEditor/lib/arm64/libaiedit.so	34640	c290da3dbe9d63fbc59eef7cdd9a42f70db079567a9bf4856209ea90d66b8105				
+system/product/app/MiMediaEditor/lib/arm64/libarcsoft_dualcam_refocus.so	3583192	d23924669593a183b5cf3a494d4810c35d20e334b4e3b62d805850371d18706b				
+system/product/app/MiMediaEditor/lib/arm64/libavif_android.so	864424	0c1cc68b4a5ef944a0e92f2d31ec28886064ea96a94c6f550a4bf6adb65d5433				
+system/product/app/MiMediaEditor/lib/arm64/libbitmap_util.so	952728	a7205c4e38c01cd373213352854fa8a00ebb494072dc393da886401d898d57da				
+system/product/app/MiMediaEditor/lib/arm64/libc++.so	1066192	c6486cd3f0e6dd6a12346d3b1d55ef4bef7f1cc11e4a26bbe9da720c07d4b83b				
+system/product/app/MiMediaEditor/lib/arm64/libc++_shared.so	977256	791e62491671e1d5fe5c4de1fbc5195cc21c29ba06116573b5455e592d9b76be				
+system/product/app/MiMediaEditor/lib/arm64/libcameraheif.so	995848	c7acb2dcc4147b0cb785600885773ab0e468188e8e5f7c7c0620160458e9ae6d				
+system/product/app/MiMediaEditor/lib/arm64/libcloud_text_loader.so	5248	57d44f24feef67b0b0a4328b1ca95bcad7d40e6bc8758164a8df1bed656353c6				
+system/product/app/MiMediaEditor/lib/arm64/libdoc_photo_process.so	19796024	fbede3bea67060807d37dcafdac5d1aa63d86bb988d9a3f31f5a19c9732facc6				
+system/product/app/MiMediaEditor/lib/arm64/libext108m.so	4952	79b816ca4f66605b5efe8b366926dcfdde77faedb6c873a1aa43da364e61a869				
+system/product/app/MiMediaEditor/lib/arm64/libfuai.so	7777224	99fb638e172609cd33e5674ab063e80842e13893f5979a5aebc4eabe33775b47				
+system/product/app/MiMediaEditor/lib/arm64/libgallery_block_sdk.so	9928	b82568cda41ca4c34c861a9d028e32ed11319d1958e89ea0bcfd7ec3deb4b9eb				
+system/product/app/MiMediaEditor/lib/arm64/libheif_jni.so	48504	2783d1e7312a34a7580de727067171463563486758363a16762b38226a9f9282				
+system/product/app/MiMediaEditor/lib/arm64/libinpaint.so	75824	334cbd2300af72d655def1d53ab028621a2b82866a515187a73ef215cc218cb8				
+system/product/app/MiMediaEditor/lib/arm64/libinpaint_jni.so	10008	bf14ac4b60b3743ee1aa3a6a41c284a3a01db11fd398e125e8b55b219da374e2				
+system/product/app/MiMediaEditor/lib/arm64/liblog.so	9264	b3ccf60b18561d57c12e03a6885aabf1a91ddbce28c47573e9974821484a258a				
+system/product/app/MiMediaEditor/lib/arm64/libmegvii_bokeh_jni.so	223320	61bfe4860f8dca27650f50f023f08ea395bc18de01c1621d8d4346442a14032e				
+system/product/app/MiMediaEditor/lib/arm64/libmegvii_single_bokeh_jni.so	223320	2a7ecc7fc148f191a2e5652048c1b99d42a73eb925d4f01cb437b8455892c2bd				
+system/product/app/MiMediaEditor/lib/arm64/libmi_portrait_jni.so	874704	61bfcc7795fe5fdcd944e429e571f8e5f59dd714b04ecc1a443b396f367c64a9				
+system/product/app/MiMediaEditor/lib/arm64/libmiffmpeg.so	7424208	050f7add73574217ba39d69371334df02667e835b3c02b3bcb6090103769609b				
+system/product/app/MiMediaEditor/lib/arm64/libmpbase.so	5184	f7d3d00a245a5c4619944228046a350e840161f2d00d6addeee4603607a80ae9				
+system/product/app/MiMediaEditor/lib/arm64/libpendant.so	5240	c7b69fb0c10e2ae40d5e13478be4b2367fe4ce6d69a4a8696be50fcb29cc5fd3				
+system/product/app/MiMediaEditor/lib/arm64/libqcloud-avif.so	1214040	ca84f7417c70893ef2875e9f94c88459f3997796ddb9789cabb45b292eb66f32				
+system/product/app/MiMediaEditor/lib/arm64/librefocus.so	252520	9c9d86450fb0288cbe3f1f704c3aa9065ce17ef291cabb8413f3652a01ded40d				
+system/product/app/MiMediaEditor/lib/arm64/librender_engine.so	67624	c014ebd64a8e1f16bd1e1a426b61eabbae89861f45b4422e09727aa982dfa506				
+system/product/app/MiMediaEditor/lib/arm64/libresource_loader.so	8472	950f42edd5f2a6221dfc76ac1986a18dbf6777355676a851715bab2c8a3935bc				
+system/product/app/MiMediaEditor/lib/arm64/libsdk_patcher_jni.so	74576	1989508dfe1b79556ab34c8e32db77462865a94ee2e92fb8e1e342f8af755969				
+system/product/app/MiMediaEditor/lib/arm64/libturbojpeg.so	469272	a51befaffa24ce3f72cc7bde953565d0db98796758d590f91b06dd2e49ac241e				
+system/product/app/MiMediaEditor/lib/arm64/libvis.so	2055352	2588a4294bc0adca873ae07f066b9a472bdf558411471c932cb7af7185ae1626				
+system/product/app/MiMediaEditor/lib/arm64/libwatermark-service.so	6808	d2acac6f1bb9c21dc301a1c9d87d2e1ef8b8d326a56a37fed57c4a8da967d1ee				
+system/product/app/MiMediaEditor/lib/arm64/libwatermark_effect.so	295176	9166427ce3a823f46062ccc6cd32748e2ffce312db246336dc6b98c5b6af2db1				
+system/product/app/MiMediaEditor/lib/arm64/libxcrash.so	76088	b6943bcfc6ec338d85b5a439b99242b5d6e56fe2fdf3b5bda30148d960ce9178				
+system/product/app/MiMediaEditor/lib/arm64/libxcrash_dumper.so	113488	02980659f0126b1326031554508b5973a90ef91707045f43fc7298f20941cfdf				
+system/product/app/MiMediaEditor/lib/arm64/libyuv.so	557000	7b37d00263fcedbfd785d6e8e99cb434b9888ec93978ae1d63a0a938b0c8ce48				
+system/product/app/MipayWallet/MipayWallet.apk	104463099	4f5b8ecfb544fc6e1927c3a14692770929ece978c69f4b209a2a0307ff47ca08	com.mipay.wallet	20577694	6.114.0.5756.2747	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MipayWallet/lib/arm64/libBankCardRecognizer.so	1109048	a41167245250e830111a81ef0a9e57696e194236c2ef389d618da29d1caff89d				
+system/product/app/MipayWallet/lib/arm64/libCFCASipCryptor.so	2371640	2f17dda7101712ef72bef639ab6f9cbba4f64388a6aef56cd14e4dfb7a1148f6				
+system/product/app/MipayWallet/lib/arm64/libIDVMNN.so	2423688	a6d065edc084da58378d2e2de58c4da0dcd339103422ebcb48d2c3c3cb3d32a4				
+system/product/app/MipayWallet/lib/arm64/libMegviiLicenseManager-0.3.1.so	592256	a98dcdac4abd68d033b072f516c604e9d9b53cf471af1ddf76b5a06114a09853				
+system/product/app/MipayWallet/lib/arm64/libYTCommonLiveness.so	709344	4493128fa784032cd37569447b780e1b19338e341b4462760d5a243a558f9c9a				
+system/product/app/MipayWallet/lib/arm64/libYTImageRefinerPub.so	3411168	7473c55fe59fb49b3be19dd20a567b78d7d170bdde84a807f72dc7498b70bd24				
+system/product/app/MipayWallet/lib/arm64/libaliyunaf.so	320768	8f4d60b080be6a6f6977cc37c95a71a78cdc3e5fb5c89008351632b3bb68624c				
+system/product/app/MipayWallet/lib/arm64/libapp.so	11600800	5beab6a3972fe4af77b3e0c1ececb9e886109bda376ca2a65662ccfe1be47d2e				
+system/product/app/MipayWallet/lib/arm64/libc++_shared.so	1292896	92ee8da641b969254cc8723f64aa115d36c8ffa87115e38bc9cb89e3eefee839				
+system/product/app/MipayWallet/lib/arm64/libcfcaMLog.so	419336	e2d5c7690ebfb2c5b96dffe743e240c0e697ae1bd5da266cb98c91ba88be2107				
+system/product/app/MipayWallet/lib/arm64/libclientalg.so	3859208	757c6570206a8a4a60505b5db71e0523ba2b553e34b46610db8f389117390e3d				
+system/product/app/MipayWallet/lib/arm64/libdatastore_shared_counter.so	7112	d3e48717c9aa147e0ab21063ba0e8e0211cabf8bf40b222640829519edbf58e1				
+system/product/app/MipayWallet/lib/arm64/libdexvmp.so	492016	8b981e868d72577703b1e632034ce35a0c709a47370086694505c5b2a222294e				
+system/product/app/MipayWallet/lib/arm64/libeidjni.so	862696	cff93e0411ae756a0b852f5d04cefe276bfa3da163e983e7866a8716be435bb9				
+system/product/app/MipayWallet/lib/arm64/libentryexpro.so	181720	4f0a54e830db6f16a50770c1d3ad9bcba8d5b461161526132355f8e83f35758f				
+system/product/app/MipayWallet/lib/arm64/libfabricjni.so	1151456	541caf9088c62fbed00c805380363dbc0c5015b28ce3ab24a1ea9e89b0b20528				
+system/product/app/MipayWallet/lib/arm64/libfacedevice.so	2689648	0039f0771daa6ff32c28e17a640f195b4245ece00edd82bdf1baf7cf8e2dc300				
+system/product/app/MipayWallet/lib/arm64/libfb.so	5648	222e9a527d9ae39d324b8a9c686bdb401f67d9f82a4ac86757d9a211e0149582				
+system/product/app/MipayWallet/lib/arm64/libfbjni.so	177000	a9e35ba55d3f956920281f519385f8a72475ee24819799cb08375fdd4cce2b22				
+system/product/app/MipayWallet/lib/arm64/libfinIdentityUtils.so	945808	c02a494543cc9731a980807742e4feb2633db446fc5f8e844bbcea5fa8813c9a				
+system/product/app/MipayWallet/lib/arm64/libfin_doc.so	705480	9b21bbbda26e47bdf2e94b4198ac506d0bf59d234acdc4171f8fa5ea76fbdf3d				
+system/product/app/MipayWallet/lib/arm64/libflutter.so	10814048	20a72488d7abf95572f98865cf1b4d17388498ffb78dca90b1f9ccc481c94c41				
+system/product/app/MipayWallet/lib/arm64/libfolly_runtime.so	805248	6d6db1f9a7e2fde860b61a3a1a5bbad52af5301b6fd4c9d9bdec86a03a9ef204				
+system/product/app/MipayWallet/lib/arm64/libglide-webp.so	412080	4c439bd8faccb62f1d257551791fbac5d3ad197d01cbdb1a2144b252b8d24af8				
+system/product/app/MipayWallet/lib/arm64/libglog.so	140488	68438779686ce1e37d4b49995cb7e0ce615d223ef5c6dcd332598af3653b0723				
+system/product/app/MipayWallet/lib/arm64/libglog_init.so	34760	72a356f4f3fe515a554ac667767c2cdf9e766b0e02283006dc64f560408d157c				
+system/product/app/MipayWallet/lib/arm64/libidcard.so	2714688	ff798d66cef6d5864a5cadcc1a15489f98a025fbd62f88c72f4a05918d664a6d				
+system/product/app/MipayWallet/lib/arm64/libimagepipeline.so	8760	1b377992e4256fa9398ec057722f84a359c7d588e570c8a41f51d930c19ece7d				
+system/product/app/MipayWallet/lib/arm64/libjsi.so	106688	996f32fb2c18e51a7ab253b14afc82d7d8c62b639d39f1946e9a7e441c981391				
+system/product/app/MipayWallet/lib/arm64/libjsinspector.so	46752	58acce5d5b1f1e71f52125274cc2cc85417034eff1e5c4cf9be52ac9373f84fe				
+system/product/app/MipayWallet/lib/arm64/libkyctoolkit.so	2160232	5712560ff9db37be4cc3732938085059ea7d591375a957eccee278c42baee442				
+system/product/app/MipayWallet/lib/arm64/liblogger.so	33472	bd139132f90c5d949f33ddc8dc63fb652d4a28e700e6febe8cdbf99553d70d9a				
+system/product/app/MipayWallet/lib/arm64/libmapbufferjni.so	78504	6c6ef0d1d4d7b4cd7091ac448f1423aff3d5963c6a139830b6559844a40b2911				
+system/product/app/MipayWallet/lib/arm64/libmegface.ocr.identify.so	2157432	0d16ec86047411ab9cb3f044a88f41f1fcab86bb07bf3c983fd4a15864c1af02				
+system/product/app/MipayWallet/lib/arm64/libmessageCryptoKit.so	2957040	f24c3cee33965046e37eb9e6a85f9430528971eeacbe2ac3cc9c32b9f90f449d				
+system/product/app/MipayWallet/lib/arm64/libmmkv.so	597000	03b2eebd01184582fa0a17dd5a1d18fcc6573b4cac3ba02e289055d13bdceb3f				
+system/product/app/MipayWallet/lib/arm64/libnative-filters.so	23712	4294b57460e70a6351ce7ae2733a79c088c907dfa54673a657227ec5bb669594				
+system/product/app/MipayWallet/lib/arm64/libnative-imagetranscoder.so	585376	2aed28298a25afd52ac670cf9682398c6c7ba42a57195c01efd565e7ddfe17ca				
+system/product/app/MipayWallet/lib/arm64/libreact_codegen_rncore.so	649416	9a8c1cf51ec866157ee6dadc14aaa6dc941f3292a969a4e5cc4764884bd2664c				
+system/product/app/MipayWallet/lib/arm64/libreact_config.so	7192	4ffef20e90d8ca59fabc70b25ebdc543d2b2cc3bad13dcdcc255cb35e3b17a1e				
+system/product/app/MipayWallet/lib/arm64/libreact_debug.so	4400	4deac4fa33ae42e7d6695bf74b5842bf4de5b2f8673d8b5507c7dba6ac4ac78c				
+system/product/app/MipayWallet/lib/arm64/libreact_nativemodule_core.so	222160	48b146bc16c2323c3d9edcea31dd56160f7187b9a2b39c090eae520ce098074c				
+system/product/app/MipayWallet/lib/arm64/libreact_newarchdefaults.so	150584	af615f2d2b5534d804108c3219e36d4d4a96c4d9b02126396c13a4b27cf8b1be				
+system/product/app/MipayWallet/lib/arm64/libreact_render_animations.so	161976	6fa5321bb380d4c2a5003b2e54cbb46f529b8ddcfe1f3c639efeb4f39a9a577a				
+system/product/app/MipayWallet/lib/arm64/libreact_render_attributedstring.so	62792	26758b737dc06b1a2940ade1582f5df09ce5fcb413bac405915893fba6737dea				
+system/product/app/MipayWallet/lib/arm64/libreact_render_componentregistry.so	68992	4ae543706893a2f7ac1fbecebe0338a3444d3f75da658c4c247f2d8dda71614e				
+system/product/app/MipayWallet/lib/arm64/libreact_render_core.so	159936	a3fa05ff7e355ea5bca58a5b7e747dde9d1b83f7903caf8766068353da42ddfd				
+system/product/app/MipayWallet/lib/arm64/libreact_render_debug.so	3800	44d8c5792e2591b417bbd4fdf8d532b3a275f5f58840470b80620158235517d0				
+system/product/app/MipayWallet/lib/arm64/libreact_render_graphics.so	42296	adaf54aef706baf3e43d631fce946a03019c831596e157b12794c8277cc3564a				
+system/product/app/MipayWallet/lib/arm64/libreact_render_imagemanager.so	44464	ce5c43be1642be637d5921927234dbdbe0f8a70f21789fee88984d637ffc1717				
+system/product/app/MipayWallet/lib/arm64/libreact_render_leakchecker.so	52016	c79000e703cb584f1efd8722a774c602642a5b8ebd96c94ffe2e81f183d12783				
+system/product/app/MipayWallet/lib/arm64/libreact_render_mapbuffer.so	51288	009d7ade03fd1f7d76bd04f8bf68787abb157487fed900bd59435cc85ec84093				
+system/product/app/MipayWallet/lib/arm64/libreact_render_mounting.so	250376	a817e3eecdb521ff75d5dd397f002619e37e7ee8722a12b229e437ddbe75342a				
+system/product/app/MipayWallet/lib/arm64/libreact_render_runtimescheduler.so	93736	9ba343809df6f1aad91211bcc2e53ff15630e0b1b08b42ae7e604096619f626f				
+system/product/app/MipayWallet/lib/arm64/libreact_render_scheduler.so	173024	e3003b258f4bd4ed49db7ddb5d6f4bac0c41bafb354d286307238b4758f3bbeb				
+system/product/app/MipayWallet/lib/arm64/libreact_render_telemetry.so	46296	f5af436b03c0eff56388cb573fc5b4712c9486752536e10172399b2eec03ac24				
+system/product/app/MipayWallet/lib/arm64/libreact_render_templateprocessor.so	65744	47437c2a0a36742a2c1ca0564532dce806eaf71f29ec41c6edc6c134bfcd9687				
+system/product/app/MipayWallet/lib/arm64/libreact_render_textlayoutmanager.so	152904	049db516d2cc40a2cab8ad775ee2192de4b805a85241d627b39d1b66b131fbd8				
+system/product/app/MipayWallet/lib/arm64/libreact_render_uimanager.so	203448	27ac2a036264c55dac37ea8cad511ad0fe2b767c2056cf1f8254dc63e49577fc				
+system/product/app/MipayWallet/lib/arm64/libreact_utils.so	8912	af6f589f348b5a9cccd4fe3d6a734d7e00f1ec479cb97f1a74e0ef7937b86ad1				
+system/product/app/MipayWallet/lib/arm64/libreactnativeblob.so	49280	7920f571ffc7b8ed77ec294ab9101d88525f4a63f354d41e48052eb5b8234734				
+system/product/app/MipayWallet/lib/arm64/libreactnativejni.so	915904	058b2f3a5f366217a23b14e3de01c3c26cbf8d35bbf75d118808e04b99fedb70				
+system/product/app/MipayWallet/lib/arm64/libreactperfloggerjni.so	5968	4a376eca591fe1842df17813eec562e7f2d1d67027621cb72ac17af28701ccc5				
+system/product/app/MipayWallet/lib/arm64/librrc_image.so	164760	47a30a98e710c6272ced6a43a5e22805e6e2209f4a3efa3707e35368bbb38b60				
+system/product/app/MipayWallet/lib/arm64/librrc_legacyviewmanagerinterop.so	38320	8609d0af62b448b923e8f9681d1deba4fa5c9745801f0f81533dcd18a8c71bdb				
+system/product/app/MipayWallet/lib/arm64/librrc_root.so	53920	89e719ed5ee64377f5515748c07211fe56d210ae4765cd9fa9caabd3aeb5eb6c				
+system/product/app/MipayWallet/lib/arm64/librrc_scrollview.so	148416	facc4473dd59c48f3d4f1e6a4e00945cb58410e194ac0829b573d8d37499cfdf				
+system/product/app/MipayWallet/lib/arm64/librrc_text.so	250456	bbc791aa611710ebd885ab03aa7548d490d39291362a8d1cf6189c2324767567				
+system/product/app/MipayWallet/lib/arm64/librrc_textinput.so	222056	78bcb30e19f40b125fec4eb8c590eca4aaaff9c1cd71c04a13d271b6a22aa2de				
+system/product/app/MipayWallet/lib/arm64/librrc_unimplementedview.so	89720	a0f70ca5f8cff56e9f001d3615fa5221ca3267ee98f04c9665a3480303851432				
+system/product/app/MipayWallet/lib/arm64/librrc_view.so	329776	abb31631cf2248a8a73a3a34a7becfc3598ef3626a9bee2f8c90fa1f03aae32e				
+system/product/app/MipayWallet/lib/arm64/libruntimeexecutor.so	4096	d1aa9772be70bf8e84c26b32b888c2c1f15c20ddd83df0f8400543341b8dd7e6				
+system/product/app/MipayWallet/lib/arm64/libsdk_patcher_jni.so	103360	2747edc7765f5ee92ad8e8f1a6f651b2bb4862bcd5111de84185c56b1db41fda				
+system/product/app/MipayWallet/lib/arm64/libtoyger.so	1339432	ecf3394fb0eab27ce8bbc057b9416ecb13ce4dc850568cfda20c765926af0480				
+system/product/app/MipayWallet/lib/arm64/libturbomodulejsijni.so	117208	6157cf62a631d98dd9bf6d389bdce818eb3bb99c2e5ec504e210ba340f109df3				
+system/product/app/MipayWallet/lib/arm64/libturingmfa.so	333192	537edc54d6d4ab39d4e7aa6d6f5bddb8e14264d52585d0d69124fbcf61d45dc0				
+system/product/app/MipayWallet/lib/arm64/libv8android.so	16273904	0d0660b11a34df742912a2120be30bb4da7ad469c27090cdda336bae3c310eb5				
+system/product/app/MipayWallet/lib/arm64/libweconvert.so	6544	1570bca1af26d19b3982d79f784f505c6daea41e27c3691d5da2b04e3e9541b4				
+system/product/app/MipayWallet/lib/arm64/libweyuv.so	308472	f06ae7ea7271b9967df5ffa8b202aa2dd34f231bf3345f8a514e0080e5f3e278				
+system/product/app/MipayWallet/lib/arm64/libyoga.so	166760	dad0fa84be21e203e7ff72a6ee62a6d42ceaec9c783d6cc6a9b88919be676d18				
+system/product/app/MipayWallet/lib/arm64/libyrnbridge.so	476888	32335075fb8c9868cb5e4d8fe914a0e5e5adee13685289b1e89a541791b9f152				
+system/product/app/MipayWallet/lib/arm64/libzkfv_tj.so	464984	576282f2172ccb2de823978de9221460f9d88a65a3a8cc353663f3914963dfd5				
+system/product/app/MiuiContentCatcher/MiuiContentCatcher.apk	140301	b2da1d789c67aa4bf883999056afa1f68553137ee73a051b50c6daa2c4110720	com.miui.contentcatcher	320260414	4.1.7	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MiuiPassword/MiuiPassword.apk	21474	17f485a0d63b44b94b2b61501ddf07f90541fec687c0b72e9b35a5268a3b752c	com.miui.password	10015	1.0.15	d45f076fe23a1a5b7f486e3ff41547a2023dbfe1fe73353b1e48ebdfed72cc6f
+system/product/app/Music/Music.apk	163457508	a21d86bda17cfaca8b67861ca5df0dea70f0c12c1167124bb9efb37864b37e73	com.miui.player	4450001	4.45.0.1	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/Music/lib/arm64/libDTSLib.so	1724040	dddfa092fa885b39a747a7653d0a08a092cf93f0fd1c6da2d0a40e16af23ee81				
+system/product/app/Music/lib/arm64/libDownloadProxy.so	6407544	83d9146701d0fde668ce80cb90bc0e5c402b09174be5807948e880f145e265ce				
+system/product/app/Music/lib/arm64/libFFmpeg_audio.so	1139424	d541113102e1bd233eff62ad26e5a8fb95396ed9ece3274a8384ac3b7b034c49				
+system/product/app/Music/lib/arm64/libFireEye-rqd.so	461632	d793dd70a78f541b3ea7c5033ca60c54f7f154324f44e0d1b6aafd78ea54d329				
+system/product/app/Music/lib/arm64/libFormatDetector.so	116992	5078418de06b5254924b513745213ff4a87e8ae85378cf63c7afbba51b883619				
+system/product/app/Music/lib/arm64/libMpg123.so	232024	6cb3346ab0aa5f669faf2e56d7dbec1c80de6f50e87b8161be577614dc740af7				
+system/product/app/Music/lib/arm64/libMusicWrapper.so	559120	ece9a2938b6aa09fe57edd15f3150706b375b2e6355eebbdf95c3057f2996806				
+system/product/app/Music/lib/arm64/libNLog.so	116304	fb12d76766dad8b043ae9cef996b9660c258362e2057feba2b41ef4fcedd1aaf				
+system/product/app/Music/lib/arm64/libQmNativeDataSource.so	67736	0ea45efda16b2ae36d7e0f8826f64dd55315c1ffcc1702f05bb1bd8672afec89				
+system/product/app/Music/lib/arm64/libRandomUtilJni_v7a.so	17728	aaddc2dee43582d0d2afc0ae449f633b3f8bc11a2f233f4583cf6dea0ef216a6				
+system/product/app/Music/lib/arm64/libSuperSound3.so	6566256	9b716b025cd6772c04cfb1318dcc11b8de7d4d740739d27ab6023c5a802aae43				
+system/product/app/Music/lib/arm64/libTMEMars.so	927936	6944440a058c85a88a7e444e99dedb5b8b6f8c0c35bad53a96a974af0252a020				
+system/product/app/Music/lib/arm64/libTPCore-master.so	11017600	1c8baa6726ef0bb4dd5ae979105ee6d53514e4a0180c1c97b0a9dfb2c4fc9693				
+system/product/app/Music/lib/arm64/libTekEngineLib.so	2490864	9df64ca14776a1bd2e38c4ee5f567ae79cb4a754eef77f77590924a8d8d9df85				
+system/product/app/Music/lib/arm64/libTencentSM.so	146616	8e4906d648206ddeb49aad8a38cbbaca5de1feb5140e6217efd7776810353ab0				
+system/product/app/Music/lib/arm64/libWnsLiteNetwork.so	3006152	59f4750a64170974ab1cc6cfa1f49e5092fa14660491119ac661217845d9a077				
+system/product/app/Music/lib/arm64/libYTCommonLiveness.so	709344	4493128fa784032cd37569447b780e1b19338e341b4462760d5a243a558f9c9a				
+system/product/app/Music/lib/arm64/libaacEnc.so	558968	a095a3a76b1c90092c3d8546232e4056f1c8bd6303b5b385d5f352d0dd7c484e				
+system/product/app/Music/lib/arm64/libaudio_common.so	100512	f476c79703c239c2fb42f9a640e2568e30a1d8414db869bf5d3325361926f836				
+system/product/app/Music/lib/arm64/libaudiobase.so	6571208	ac5e36b361e28c144b7054e46fbcfbf279968a88e4be2a6f6eade8415ff15f2e				
+system/product/app/Music/lib/arm64/libaudiovisualization.so	214928	83998dc59599d12294f624aa0f3d9999131bd8cae2b7d6d6511073fd665558d6				
+system/product/app/Music/lib/arm64/libbytehook.so	59080	1fa39f206cf1cb5863dc3770ec3a21339921364e647a3ab4dbb094eab83676d8				
+system/product/app/Music/lib/arm64/libc++_shared.so	1292904	4397241b4bd20a8e579bfb41d21107857e12985f6a01ca0c2a5f83380d1270b4				
+system/product/app/Music/lib/arm64/libcodec_factory.so	100512	ea553e2f7d70ebb11a43657f563850836b9aae164402429d068f40a69de89a21				
+system/product/app/Music/lib/arm64/libdesdecrypt.so	18184	8f747c212999ab3ff042bd3931ee693cf7e7e359f4b043da095fc64f04c5d8b6				
+system/product/app/Music/lib/arm64/libekey_decrypt.so	149112	739bb11ab5347860091c9a2152899f17a4ea0bf28bd780328e1282677e1f5fcf				
+system/product/app/Music/lib/arm64/libextra_decoder_jni.so	100504	4d1fd96dfc94648f0cd4a14d742e4a8d5a0489d6440007e3c0ec8daa282f1abf				
+system/product/app/Music/lib/arm64/libextra_mp4_parser.so	150384	c9e4a06ce7a97928dec6e9f24eb9ba0f9f6928262a941efd1364ca99a498310d				
+system/product/app/Music/lib/arm64/libffavc.so	1161456	1e214164a6c153f74f25018c1625f3e71d1d5ba601f6592c4dd89385dcc4b0bc				
+system/product/app/Music/lib/arm64/libfilescanner.so	34456	a5f042f4d21d11d21f13544fa66b9093e86578799b480ac6dc964b5989cb03a9				
+system/product/app/Music/lib/arm64/libfingerprint_jni.so	149088	614d3393d745bb111dee7cb945ac6f1ef9acf6b57d6f967344b75d8a3ee5fb4a				
+system/product/app/Music/lib/arm64/libflexbox.so	334264	564078cb49725fa405748b8154d6223a0db602249a848402d1734d415594894e				
+system/product/app/Music/lib/arm64/libframesequence.so	629208	c97ac7ff8ce9e149de36f6d20ec27104a14a84045f4721ded963aa6ea69124f3				
+system/product/app/Music/lib/arm64/libhippy.so	16060408	d6fd8ca970d2537181d4e5fbcdb748d20e891ad9623cbe4fdfdab24e7035d817				
+system/product/app/Music/lib/arm64/libhuawei_jni.so	657584	5193535b7f19b700d806a61d4664fb8e1ff0f3606a5a5cf4a7fca81be137a398				
+system/product/app/Music/lib/arm64/libhuiyanandroidsdk.so	3007632	6356913abc12d399c053066f70857968cd19ddbac2986ce7f48413fbd1c1c9df				
+system/product/app/Music/lib/arm64/libiahttpaccess.so	3944	3fab53b4ae00a261983b9a6f646753946c3a4b2970da1f0526c6f2ed7b6469b7				
+system/product/app/Music/lib/arm64/libloudnessInsurer.so	149080	aa095eac2e6f76e6516ea579bd983562588fd5586176d44324107920dfd2fe1a				
+system/product/app/Music/lib/arm64/libm4adec.so	501240	c6f9acdd08c231e685d4dc6f5e80c227b947a534434459bfc579fb943436ae54				
+system/product/app/Music/lib/arm64/libmarsxlog.so	766176	7f33afb14a53ed23fdb8c2d08e2f5d8cd31ad76b688a86fdd58f064506d3f52d				
+system/product/app/Music/lib/arm64/libmer.so	1150336	fe07be4988c73f03e1de97f326265cba70b2447a2b7adfe7bf8a7a2b3e7b228a				
+system/product/app/Music/lib/arm64/libmmkv.so	588296	58e0007042ef946979988cfe9cc94041cd3e735d92dc549ec0d87ac7fbb150e7				
+system/product/app/Music/lib/arm64/libmp4encode.so	1526312	4b13acf5e6ac415b0a0faa780f74256b5c782d98e31f58345c3fcc1a22ea101e				
+system/product/app/Music/lib/arm64/libnative_audio_record_v7a.so	34704	a73d6fc0cef91420978a73aff3e9481d50e1d6056b6d6bed97a27821496c0c95				
+system/product/app/Music/lib/arm64/libnetbase.so	3591248	f8b729c27434bf43a6af541e74df1ba0c602f33e0a8148d4b32fc352a2f5a314				
+system/product/app/Music/lib/arm64/liboboeplayer.so	1198352	3426cdaed63ae441f85a65fa09d6ba8a9e273a149ba5a2876a546e097ab7fa74				
+system/product/app/Music/lib/arm64/libostar.so	1416240	cc78482cfb20952c96f3b2e6af851ee4403c25f494132d6cd302e458a0c2fda9				
+system/product/app/Music/lib/arm64/libpag.so	3370784	45350e0368788dc9f75c829e58c3c8568941becab3ff3ad1adef0d70e7b7ab69				
+system/product/app/Music/lib/arm64/libpay_encrypt.so	798336	fb8c8a4232873393ba3e53c0986ca35a2ff6febf59d0d168d862b53ebedda97f				
+system/product/app/Music/lib/arm64/libplayer_jni.so	37520	a23bf4ddd532e88c19ec2cbbf6f9f914427bf3abbd52bf8aebfbb8d0cf805646				
+system/product/app/Music/lib/arm64/libqm_native_decoder_360ra.so	3957712	00f44bab599ae06cdd4527ba0b9fafee684d4b3b02dafe692bdfba87676557dc				
+system/product/app/Music/lib/arm64/libqm_native_decoder_ape.so	314688	c3bae6bf5a8b845584ab02b4ec437f011c5145449a1f7c4d2b0fec40e7cd2a7c				
+system/product/app/Music/lib/arm64/libqm_native_decoder_dsd.so	346856	c7bfdfd4a17b901223b0b8b18fe170daf0d7819f0d3d47be296e35b1c4270fac				
+system/product/app/Music/lib/arm64/libqm_native_decoder_dts.so	67728	615218a86f7b3199ad80b933c24cf8ad60b592e1b6a4780c958ce8867103d692				
+system/product/app/Music/lib/arm64/libqm_native_decoder_ffmpeg.so	133280	73a7cb4ec5fd4324b5f9757b06a9d3ca90712e0580e29b73ee03113dcdd73919				
+system/product/app/Music/lib/arm64/libqm_native_decoder_flac.so	313520	22e57cf9927597560a0b6a30be934a0ea15766c02ec59b61f9f98c20e784a08c				
+system/product/app/Music/lib/arm64/libqm_native_decoder_mp3.so	84120	fbd8929b3694d34a75413bd00ee3c2cb7e9f5a9fd5bae2ef6955e4bf44e4ed37				
+system/product/app/Music/lib/arm64/libqm_native_decoder_ogg.so	936144	1c583f3f6a3b9dffdbc111eab9ac51d709fc9e21f2e53ef7dd3350fb8f593a5a				
+system/product/app/Music/lib/arm64/libqqmusic_decoder_jni.so	100512	7d883bbea9c3ada10fd6a0b390b01f6d175b895ee2a947849cd6c59c4c114790				
+system/product/app/Music/lib/arm64/libresample.so	17800	450104807f7177a277632544906d1e45eeff924d2e5a644e1d4b2c51f68ca874				
+system/product/app/Music/lib/arm64/libsearch.so	132736	5e8d1184eb5efc450f1cc8aafbb23cad29af905301c7ae77eb150b60f21f5ed9				
+system/product/app/Music/lib/arm64/libshadowhook.so	79464	5afb272443eafb5c6ccabf4bb019e49840aa0a22698930164a8ac0fd25de684a				
+system/product/app/Music/lib/arm64/libshadowhook_nothing.so	1112	f2cc6a6f94d7361be915daafff1d25b7b3af34972e7308ac540982cfd608bd32				
+system/product/app/Music/lib/arm64/libtmachine.so	968992	33ff437ef5b6bccfb5793130c2edf974a632879570dc585c5324aec35979dc97				
+system/product/app/Music/lib/arm64/libtmesec.so	541352	dc2620d559b2c209685f4deaf715083d0b11862a4713621b2776e41de817f822				
+system/product/app/Music/lib/arm64/libtp2p.so	4379896	38eeb9325fc35d1cf71cfc1a94194661062c9700a5ff814abaac7781ec4c8d52				
+system/product/app/Music/lib/arm64/libturingga.so	295736	dfcfb5bc337012634c01ac54fb414e456ee3edefa6d933f538c2c6322af338a3				
+system/product/app/Music/lib/arm64/libturingmfa.so	302152	f729669c23e9e470920a88798335141340d6ae486e928c1239290e4ceae2445c				
+system/product/app/Music/lib/arm64/libtvkqmp.so	170888	0dba27165deca8e665edd557970c9ed1bcff22dbeb9842d9f71426776111c515				
+system/product/app/Music/lib/arm64/libun7zip.so	83792	11ada3a1fa682da513366b7dd62b064ba368fe37977da758eeeb592c442ef158				
+system/product/app/Music/lib/arm64/libunifydownload.so	5068408	5fa36f80d3ed72da2be1a61508a7bb6dd2c3888e00717f84b5da883161a2ae6a				
+system/product/app/Music/lib/arm64/libupload.so	4030848	c4de230a6b4375dc22507b773f0f68868a756cf95513ea044f0b23d780b48944				
+system/product/app/Music/lib/arm64/libusbaudio.so	428240	75194aa1fc6a9cd03a45360439ede71760ca3e66dde6e201bee4649f26048ca2				
+system/product/app/Music/lib/arm64/libvipfont.so	674944	b66dc384ee335cb82fa965829a3e6871641e9963ce6b6286ee7b61ca5ea4d351				
+system/product/app/Music/lib/arm64/libxcrash.so	90776	ad573840e4152b56a7dd4b91618b9adb6c286ca58d8dddf70651aa50b37956c0				
+system/product/app/Music/lib/arm64/libxcrash_dumper.so	118376	7c1916bd90269f62a157a23a247ca07ed3452c97e3e6b2684b99f0a46ebf49e7				
+system/product/app/Music/lib/arm64/libyoga.so	347352	23e4603de00b28b36132393210e3cd9eb36b7dcda6d9df20421d4970c772a3c8				
+system/product/app/Notes/Notes.apk	77780148	28ee3818de19fa7c8d94cbee3fad291fa9506c2cb42f2be2c8c42ee32d64f2c8	com.miui.notes	2409	2.4.0.9	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/PaymentService/PaymentService.apk	25003736	2b978506f41450e745dc7044c7086a6693e991d2a47b5f94464aa65994f49bcd	com.xiaomi.payment	2003069	2.9.8	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/PaymentService/lib/arm64/libSipCryptor.so	2986032	722dcc8906773e98c0cb292eb394b01a75f73a882748a4252bacfcdce9da7020				
+system/product/app/PaymentService/lib/arm64/libcfcaMLog.so	231528	8aacc758fc8dd1edc4efc32d0a0c8c0943682b65e9ae98bc69c329674f80bf9f				
+system/product/app/PaymentService/lib/arm64/libentryexpro.so	177624	78c62496188851cbc3bd15ad6fe0f607b7f9916abee25b30b007a2a66542b54d				
+system/product/app/PaymentService/lib/arm64/libmessageCryptoKit.so	2957040	d948e4d0c00c725b1fb58aff341526ba69a8217480c0c59a4227199529b33cc2				
+system/product/app/PaymentService/lib/arm64/libmicontinuity_sdk.so	2078648	255f0dd305dd3ca6d58a094049b924e1dab92b87d5cca5fa16d173517bf98d07				
+system/product/app/SogouIME/SogouIME.apk	67018801	c46f76f3bfc95eb20e30ba39058d954ba79f6948519742cea0d3edeb063afd26	com.sohu.inputmethod.sogou.xiaomi	10420	10.32.21.202603301837	01cb5a64feb3f6169e9dbe9c4304b1a7fab12c92af6814dd5f9892aabc01f0f3
+system/product/app/SogouIME/lib/arm64/libBugly_Native.so	224016	e036e8df39bc12b5d57a75afdb296c39f528f544287e96852911f0f714cf41fc				
+system/product/app/SogouIME/lib/arm64/libCtaApiLib.so	510464	660fb6d94f12862e37afa302910bfc782a89a050e10089cf7e1b3fe3d896e64a				
+system/product/app/SogouIME/lib/arm64/libQt.so	5440	64269ab82e726f146cffa84b9df6f891b222de87b90e40a3cc299ed54e17a1fa				
+system/product/app/SogouIME/lib/arm64/libSGMtlgShell.so	4953000	dac786aed028c36eeb442bea755f71008463ac17ffcd6dfdbaa8eae6fdcc3055				
+system/product/app/SogouIME/lib/arm64/libaffinity.so	288752	ea0d419298aaaa9a72872eafdb7b86c3b3f0d28e15120394071a4b5e622ca9ad				
+system/product/app/SogouIME/lib/arm64/libbsdiff.so	133656	ffd6580f9a4db6c84e75958b2e9f27e2600fcb5df2030875bce6ad21bd15905b				
+system/product/app/SogouIME/lib/arm64/libbugly_dumper.so	113672	d5d1b147cd423adeed2f4516457d89eee2eae5bf08182cf140d3c9a80eeec234				
+system/product/app/SogouIME/lib/arm64/libbuglybacktrace.so	1415784	8638e39a8612bc9d7034d9ebcfbe9e9c42d4d5aad8368a193d227ac824852ae0				
+system/product/app/SogouIME/lib/arm64/libc++_shared.so	1058904	9bb2227fd5bf39cef1bc697bbeef40cdc32d9567ac2fb285e8e96ed013e3d463				
+system/product/app/SogouIME/lib/arm64/libcrash_collect.so	235536	0a56716d35723506b4fffd09eac1a9ba357a7c3247a869f21a1d587ee87ae4d3				
+system/product/app/SogouIME/lib/arm64/libframesequence.so	363096	f4b74c4d2213d7b691ee1e66eedac1e8caa8308ddba25483992eae774cd2e2c8				
+system/product/app/SogouIME/lib/arm64/libgraphics-core.so	212112	d16e179a7f6217591e8253627ef87ed4e459beabd075e0f00c1dce7b61f50f13				
+system/product/app/SogouIME/lib/arm64/libhttpdns.so	255328	dc2852c11395c20865b3abc2a22d6b58a4f1c47ea89264b9e4b732161d8b304b				
+system/product/app/SogouIME/lib/arm64/libluajava.so	280048	78e7bc0b6a97338f75886859b681407ea021f11e90626c951de1395222d0e688				
+system/product/app/SogouIME/lib/arm64/libmarsxlog.so	198504	09116fa6a0360199d776585ce2cc120ae42f537bf2f62be6e41b69043f0c985c				
+system/product/app/SogouIME/lib/arm64/libmmkv.so	187608	02a476669f53f62083add3f5288f4694c5ebfe6e83cee9f3ab2c9a2497342c59				
+system/product/app/SogouIME/lib/arm64/libnative-sec.so	260664	63cf77982f35a041abfa64fd188c1b3bde69d9b1ac07cce8ba188007fb693046				
+system/product/app/SogouIME/lib/arm64/libopus_v1.so	419688	6ecb204468d27ead80c5d2dd70f279b67a0475f6670b5ecf21ee044d7eb688e4				
+system/product/app/SogouIME/lib/arm64/libpost.so	948336	8ec235036ea95e090327abd2727bcd46347190c6238b1a6ad8d5ed264ad498eb				
+system/product/app/SogouIME/lib/arm64/libqimei.so	781376	777c26a3095559107c49d88cc5d2e481bde253a7e581410208932c582aae4b7d				
+system/product/app/SogouIME/lib/arm64/libqmp.so	170888	9c33e41754307adab6a12d541b2698fee2c7700729ce018e685cce7bd7afe0b3				
+system/product/app/SogouIME/lib/arm64/librelax.so	1222840	1efbadbeb5a55260975057a77f8503198899541ff8e11fe5400800e576779b38				
+system/product/app/SogouIME/lib/arm64/librmonitor_base.so	354776	e5b7feafcb8125855febac2d057fff2d4d4d8c554f68cc8d3cba7c1c42308630				
+system/product/app/SogouIME/lib/arm64/librmonitor_memory.so	231680	99b4f00595fee39b3270d7de7dcfbc2b00769a603a47c3fff1b0b5b8a7d01a45				
+system/product/app/SogouIME/lib/arm64/libsimple_vad.so	313216	eba0dda1072b38c6bf82bc5f8f2c1f4af78f1c056f8041775a0bd62c7eccc6bd				
+system/product/app/SogouIME/lib/arm64/libsimplevadwrapper.so	34848	19e58d383eaa89c8567cf667ed5720a5930af7504581f69699a2c21d4a581f14				
+system/product/app/SogouIME/lib/arm64/libsogou_speex_nt_v01.so	499416	47e79be997f2af9c9835c362353321e4c9f284780ceb53201521257c38abc798				
+system/product/app/SogouIME/lib/arm64/libsogouime.so	3475224	50f3d2160ddb020fce6ff3533b2090e8ac6f61bc104bf93213e06494c9453313				
+system/product/app/SogouIME/lib/arm64/libsogouupdcore.so	5840	2f1ac64f88d4144ba7a8a873433ed83df41b198dd338e343199c637e9a148f91				
+system/product/app/SogouIME/lib/arm64/libweibosdkcore.so	26136	b1fe581623cb9d757d0cc126a2c04207ab342df41be4db11ad58556a369d89b4				
+system/product/app/SogouIME/lib/arm64/libwind.so	42888	5108dd5f96284b45a8fdb3abf7c8cdf1134618146f8e0436ad3ed99aea326d31				
+system/product/app/ThemeManager/ThemeManager.apk	70251768	3200eb718e47884c76532d3c94307303e31285d799d027cd46ffa067391cd10c	com.android.thememanager	10800	10.8.0.0	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/ThirdAppAssistant/ThirdAppAssistant.apk	4990148	118b0142e09b7ee28a09e4bcc457b34b99dd2efb8e326241287ced45b9ca029d	com.miui.thirdappassistant	1041	5.9	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/UPTsmService/UPTsmService.apk	24079202	ac52313450813ab118bd291013e6094b1db3c86468a5899343b4135b40b80c83	com.unionpay.tsmservice.mi	57	01.00.57	5f6b3d22859624a8de36f95d03ae2ff7581a1daabb230c62aed9470a54414845
+system/product/app/UPTsmService/lib/arm64/libDeepNetV2.so	2933032	8863f8e3f0171078bbcb7122b7a758dd44636690c7ecfcae6b2780dabc6a16d4				
+system/product/app/UPTsmService/lib/arm64/libcwlive.so	9419896	aebd62a84ea64ce1238514680f51f7cd1b97b17405a700795d36c71979e01b99				
+system/product/app/UPTsmService/lib/arm64/libenlic.so	354632	449b43d0c5cddf709decae41ad0f7c19a047e3337df05b9f265a347bff5d5aaa				
+system/product/app/UPTsmService/lib/arm64/libentryexpro.so	230872	7d4ffc4b2bff0b2ea01cb3171bd90aa3cb04ad5b1fede8c46d3dabe11e3f5abc				
+system/product/app/UPTsmService/lib/arm64/libupbio_net.so	428568	c2139aa24978792ce22e56b455171b043fa7dc7c859b819514c742733f5ef207				
+system/product/app/UPTsmService/lib/arm64/libupliveness.so	1454160	3402829d0d205e9c6b537c2bb33e7317ecf69f297ad5ddf75def0ddddb80ef2d				
+system/product/app/UPTsmService/lib/arm64/libuptsmaddonmi.so	723744	da28211dbe1cfe2d60c74feca88136007f7404fc004f6e7e8a80a5d2e40dc4aa				
+system/product/app/UPTsmService/lib/arm64/libuptsmservice.so	1245824	d4e43d7dad734e69560fe4734b2e02d45cf81bd1d1537916f70c43c465c4dad2				
+system/product/app/UPTsmService/lib/arm64/libxdjacrypto.so	383488	bd1909add81d434021f8af586d173c3aac5d81c05f3129d2b649455c9eca8888				
+system/product/app/VoiceAssistAndroidT/VoiceAssistAndroidT.apk	170465221	c741871d14462ffcc4d29be283610f51ec0bdec569b3f40e0fee570ab00f9895	com.miui.voiceassist	507012002	7.12.2.0318	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/VoiceAssistAndroidT/lib/arm64/libCVLM-DLA.so	58688	49ecdb17423d28ddc762c83651859d1472e3f25cebe3ff8e063682902ed51c1d				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libEncryptorP.so	75744	480a0d2c9a3836806222e86f69c5139d9aca88b9e2593badfd98522eb2705822				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libMNN.so	2438240	bf8051d11cae00a6c92038656861d8eb21cf1ca8086f44a9d2e948840da97d96				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libaiimagedetect.so	32264	afa9f0bf81ee7520195443dee8496d8384dfe1c3fadc1863927ffc50ab9b3d72				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libaivs_jni.so	727432	0b959cc4cbab062642be4811500ff56928fcd1bf00cffc90e1c646428a2f098f				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libaivsopus.so	310928	5a9deac51a716c791f86a96eb071ef3097b1ad5d9c56281a32246335f0daebce				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libapminsighta.so	104848	eecf5d5fe841c8a1396df434859b677296e173215bea675df93b1b5587279203				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libapminsightb.so	88904	01dcf5067643fd5f7ae27a83db7d8cb351625493d10956fe40b40eafd1bbbfc3				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libc++_shared.so	911696	f1ce8bc0759504421da60393b8654cce473973615416254e68255306ec913222				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libcntts.so	3553664	6e3133a6acc4cd26d04941733ff8d3f073bf09bcc4cf62f24cddf4de802b8a32				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libduidns.so	563952	de5e12d2c0b82877be4b081777d4ef43edab47ef8a674f305b991ac1c79c6375				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libduiutils.so	161936	dbfa9c99bb1b4a21458f50a4f145fd2e5e8617775d9d386195a1c12c8fbc2eb1				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libfabricjni.so	1194056	d76812d86f3ed62bba1ceac52f8fb398b113c7de19bae24594113f51fc56e279				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libfb.so	5968	2ea1df04083601fd0d72116a4720d8865a5736447e4eb6087d5aefd44228ac2c				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libfbjni.so	170192	0a409bbf821be81a71e65aedf0c856ef7ca444417c975dfba1b13268bc537b0e				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libffavc.hyperos.so	993640	919868f3d50235a3d3141845dbf4e137cf10b9bf965d7be2de710008dc32d052				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libffavc.so	993640	7847468280b405e69f05cc37bbc2a0b2aa0dd1a07bac4a55243f6d4cb1df28fb				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libflexkws.so	3339696	6b9417ad8a2b90a71224289702855a779eb613e78e329a1614b5670d65afc084				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libflexkws_jni.so	12496	5d7c25953049096089d4a2baec647b1c069c1c9b2c522f2ba94a3e2988a2e99b				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libfolly_runtime.so	747664	d9cd1188cbb3722e1b49cf54e5813051fdd74d2d1605a597bbcfb4cb0fd959b0				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libgifimage.so	252560	b11d3e1db049f60aadb5e3c1be9c5a24406e8674e3adea84d5811a2bd9bb6ba9				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libglog.so	153752	d54fe4ecda20646aa30dbd5f1c027d8fcbbbca745482fdaa27052fd1a3d22d8c				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libglog_init.so	30760	4dd8ddd7fefb8fa16a2f1e2b4154c58d8b7189ddd58650f5da4d930b0fea5172				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libgram.so	2385408	95eafb4320b07d3d80531425cd55be23f663d752d1e0a7c3130af37e5415b426				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libhermes-executor-release.so	223272	085b2536867e598d50286679d77dfcbc888a0f8ea109c6eefcc9a560f3391eff				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libhermes.so	1925488	b98c87ce04dbf472b063b729d0936982b54024c632b38c80aa5d8b83f93e39aa				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libidmtrans.so	1513736	28c1db8f428bfa091dae22674f4d941dac9a0d5e5588f7560e3d8eedaf9800d8				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libidmtransfile.so	1370376	e5eff6bf33c6f7a49e2cf8122edf63537e5c5cb634485284a40db576acf82c66				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libimage_processing_util_jni.so	28944	2ead62ff358ae3a9e9cb5b0278a1d5132a7b410288bc74add8f6356d668fdc39				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libimagepipeline.so	10328	8d46eeb0e280e140dafd04c6c414ae2fa03e8469f26fb2464e218c4557d4a443				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libjlspeex.so	134472	b8449888ac175b2a5b949b874c62a81f35bb1f811cadb775449d7d0f1cfc57f2				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libjscexecutor.so	202760	8523a70bcdc7cbd904baf033a753e86704c06874098ba3abc52d5f0a8cd2176d				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libjsi.so	108592	01cc6936d356afcdebe08a006fc5063ef24de74676a945423dc272ea226e82e8				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libjsijniprofiler.so	34848	90a060cb955369a1717a99adad04d37ab5b0a20d02f27db73237352bc5f45c9e				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libjsinspector.so	43040	d37115da82a45d840f36f541dc0dbc14b44df45636d25df29b3b2a51cecf8e7c				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libliteca.so	17800	0ce20209f8b8314b72e1783dd7483d649389fa054441c92ab96b43f2a2fa7bd5				
+system/product/app/VoiceAssistAndroidT/lib/arm64/liblogger.so	30752	f7942a2e9b47b75409437f29f9d132bc642fe8cbd6faf0b920f856332baf4775				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libmadvise-lib.so	332608	672daeb4860ff1ddaff9055e2fdac16a793a3dbdc47c987192a9c181d4d53435				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libmapbufferjni.so	75816	0dbe4760bd6425ca2f94be15da391e7ba25a051c0548a3c4edf233ce38291b39				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libmglnative.so	930216	d8cdbdce61f0b06892174971fadd81405b4e2aed7da13c164cb7219378f499a6				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libmglnative2.so	1753720	a78630eaa5e6991b888c2744e4f01de67e0079948def8cb60434c98130a1773e				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libmicontinuity_sdk.so	1006472	78346aacf35226577391a5ca528ade8485cc5ea16d7c3dfc823457ffce11f7b8				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libmmkv.so	483120	8157304cdd1f41a75f95629bc352d52e234009b765f0d4f0d7ccc31884f34149				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libmp3lame.so	239600	5b5fdeeac0e855d690003c4aef3a3126d33866efb3c99ab39757146d1b8dec67				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libnative-filters.so	30776	6929cc841799c864ad684e723f066dd39952f5642f6750ebd294921c4a77e900				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libnative-imagetranscoder.so	448616	23f566911569c0df554ebb496e2c8d888c537c4c595c1c9a842e74b8035e1328				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libpag.hyperos.so	3082744	ffff21c2d281aebb1ada44c2af573cd721eaa66a93a80c38081a39ec64104a9e				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libpag.so	3082744	013e4072034b802f87f1c7c2768525cd11d851c225153d06a60af5406dab7d70				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libpangleflipped.so	10064	f8bc883be882330cd919f94ab6aad4493a80004ef0ab77337c6bd727a514742d				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libpl_droidsonroids_gif.so	43016	7bc82edf7b81405efe19bc13f7b7e1350bb9331e0cc2ed45dc2b19d9367c97dc				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_codegen_rncore.so	460832	ff49b9ebf5d4adef1db59e126fd0406be2986e44f077fe31e5603522abbc0c7c				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_config.so	30752	494003039110282e53556bc62505e0b046c573140212e79356dbf54ffe28a935				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_debug.so	5896	c0f341a1377ca25504bdc777146688d2d61adf85b19a970bd6dc4a322b78638c				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_nativemodule_core.so	206952	8a438407cb7b1741f8944e1bcf9c695663535d356ea88008360a71b6faf2755c				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_animations.so	161824	b5edd3a8139009d0a5ed0bc4ff7f66e91adc186a537dd279a7e3bbdb95f36775				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_attributedstring.so	63520	fd03e16534c41a625ea27673efe6bab5ad9d1281d6c6975d5a172b9e66cff769				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_componentregistry.so	75808	81ee83aa89c0a3b2c73d62efae637117911707ba125e48d1213ebad5a10b3284				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_core.so	149536	62d8d65a639a5cd86bf26c54ae7af157f958584d8eecde45f46f6c860be90f28				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_debug.so	5672	112e3e7a123df7dcdac601f6dc305f8dac487a7a3ac5f3abba7de77592bcdb6c				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_graphics.so	38944	7ce03aee44f42f762543894fbb7e474bd6298fbb65150e910a69e36e45cc5d11				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_imagemanager.so	34848	74486540a2f44f49f10bb942784925fb0c30177ca1d2f398150b6a2be86c7b34				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_leakchecker.so	47136	f0a284fd6642dd96ad8981146d29fdb6ae192f3f3806f59ff6be5bf84f738b4a				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_mapbuffer.so	47136	086e72e925e9dc0769a8d0c09f470aacc31543127cf5397204b4065d022fa15e				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_mounting.so	284704	ad03d849e7d769bc04446ff71bc76795e3d5f0555b267c1b13dd9cbcce259c5f				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_runtimescheduler.so	84008	994129ff47602479359ed6c8a6b9473ad8e9c0be9766ef8b4116c174f0d21e8d				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_scheduler.so	186408	30746e5e45a57f83add28454dace4fa8f4405e0965343d5665313e3aa17b469e				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_telemetry.so	47168	48ec492e73451073c1f5a8938119f5ed6a108ff422abead013b55a03c6c68093				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_templateprocessor.so	59432	20fb0c1d35fa6eb8e2178efa69acc5af2261bc6400958595f55a1651231005fd				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_textlayoutmanager.so	153632	834f01487cc5af15dda0e8112186d19db64983608ab5ee3d4769601bb4688003				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_render_uimanager.so	202784	57fba967435cc5b715a8a3f2466804d9f60a175c4cc1e53aa17e1cfcecd66d8a				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreact_utils.so	9992	2bafcd134fb7b78a51e323029fe7b3692e11c3ebbc5355718f4f9162572d6a36				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreactnativeblob.so	43040	9be831add2d0bf2d198e7ff4a7124ce0ed1d059d5c7f53ef24eacea7ed3ae7bb				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreactnativejni.so	792840	e1e32a66424b499be61629b7083dd75746922b958e4733f90424e3586f643193				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libreactperfloggerjni.so	9992	d11517f18c4206dacbfbad1dd0aa1ea54fea05fff9cf04618c51133ab658803e				
+system/product/app/VoiceAssistAndroidT/lib/arm64/librrc_image.so	133152	b53b9ef356f14304131f0aa66ca4384c604295e981f6b6a1d38d6eecf584938a				
+system/product/app/VoiceAssistAndroidT/lib/arm64/librrc_root.so	51232	4f56cecc916e1e91527cf63770079f753600c191b35d704b189657ee8ee1877a				
+system/product/app/VoiceAssistAndroidT/lib/arm64/librrc_scrollview.so	124960	c4afe00275dd22933f2e9484904293c06af91d04acf24b6c124ecd14aa94e276				
+system/product/app/VoiceAssistAndroidT/lib/arm64/librrc_text.so	198688	d9dcff187928077600a3e9a21bc5d2e284e774bbf7f7c708416f787fc67d35af				
+system/product/app/VoiceAssistAndroidT/lib/arm64/librrc_textinput.so	178208	14c1e53f13d78baae3311391d4c82d6cf711ea3b2d170d549d56ec8a0939a39c				
+system/product/app/VoiceAssistAndroidT/lib/arm64/librrc_unimplementedview.so	92192	3c055bf8334ae393257617da9e08edf65eb847fcee588c3e9a81c125adc2eaba				
+system/product/app/VoiceAssistAndroidT/lib/arm64/librrc_view.so	247880	3b1431e07353d4749f7d6173dd48838cfce73186a044a15ba1609de16de38345				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libruntimeexecutor.so	5672	36a6c8be9594f399735a7a06d946ed60cdd4b50ae4773a9bf0187c2de2b88dcf				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libsqlcipher.so	3392968	cf521797b83f746c78622c46424309aa6567499af55b52b243fcf28c8ece9b65				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libstatic-webp.so	654952	75dd327ce1eee661ad4bebc82f92a8335414121b5c89e4a83321978ae06ea0df				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libturbomodulejsijni.so	137264	b99122e2599e6358851bac19f65f4d5f77cebca0abed405e0f91de41f4a76f39				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libvad2.so	1591568	386f048d2fb517e75c4638997a449fa45b277df5232e51be0e66b5f3186556ed				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libvolume-detection.so	211136	a0f869b1b68877822ebfd50291a97536439bc42a5300e45b2eb46bfd69770fbb				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libwakeup-engine-1.1.3.so	1092016	a7b80644ed5a5e41fc08835b367408ecc085dd48da65877d0c57f24e477dfc7d				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libwakeup-engine.so	2386352	9696711f5edeeea01903ccb623067bfb908df9e1841b4ba8c8da7b22d555f879				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libxcrash.so	76088	77009be205f8fc7a6784cbe2afc536e405356cc65a3a140dbcdb0b2381a92df0				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libxcrash_dumper.so	113488	bf7d35ad63d0fcd448f8c178d27b01da8616edae4ae1087f9ee9cc6c54b3c8a4				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libxm_bluetooth.so	11864	06b203fe755489462dfc06bff5a053221e05d17a6ccdda160b396acdb9f3820b				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libxmd.so	2313120	beeae157a49bd489abfd1c8dbf4cf114e915fc316d3e2b491a23c9b227302ab0				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libyoga.so	159952	336e82552f90f6f5e1c7610a61b7d8234d60ea39032232688c1dd1c423d307d4				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libzeus_direct_dex.so	10472	b29fa9e85af835ba48c40d62deb38fa7fa8f48fd2a8a6f6f7c967f431c95e61b				
+system/product/app/VoiceAssistAndroidT/lib/arm64/libzeusflipped.so	18256	12d22f5622c91abd06902958f93114a510a99148090d2575bf7d82f9cf2e58c4				
+system/product/app/VoiceAssistProxy/VoiceAssistProxy.apk	1472511	f66010cf5713c7c4e0e726c1ac38cb63b6310bdb37d848378a5cff10e2ad5270	com.miui.voiceassistProxy	6	1.5.0	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/VoiceTrigger/VoiceTrigger.apk	42715822	9125d782e95788642a4b02f066926d92e6fc56f12cbcc6119dd091e6158af202	com.miui.voicetrigger	2026050821	v-8.0.0.29-xiaomi	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/VoiceTrigger/lib/arm64/libMdSpeechDataBean.so	211264	c950630fab95cd3bfa9aafb7a3defd0317944361ad8623ccc7d1cb901cd7d15f				
+system/product/app/VoiceTrigger/lib/arm64/libaivs_jni.so	727432	652900e0bbe465e727bedb0f10043f6f287c46679d6ecd4fa065a0181a975247				
+system/product/app/VoiceTrigger/lib/arm64/libc++_shared.so	911696	f1ce8bc0759504421da60393b8654cce473973615416254e68255306ec913222				
+system/product/app/VoiceTrigger/lib/arm64/libflexkws.so	2627688	9d6f4f16769bfb88ce0f911bba5881013dbd33256ae27875fa7f1f9f781e01de				
+system/product/app/VoiceTrigger/lib/arm64/libflexkws_jni.so	14096	34306d43583d652d78ca16075271d9b2f513662b25e5cbcec0761ba0101f97fe				
+system/product/app/VoiceTrigger/lib/arm64/libiotdcm.so	2583592	e69394b96e5942380377bda6f1c6916200ae338122b96cf050babfc67f15b3f3				
+system/product/app/VoiceTrigger/lib/arm64/libiotdcm_bridge.so	10264	3436685d5864c705ad99a0cb0fa97a9259354da565f94a91cace73176ac6ab97				
+system/product/app/VoiceTrigger/lib/arm64/libvad2.so	1591568	b99055f3c0bc04723c2334589cc84a3ec6b5f5e30990c778d62d6df6d19b142c				
+system/product/app/VoiceTrigger/lib/arm64/libvoiceprint.so	2585544	90ad10685cd5a4d7dd7e9c839560814483a0c3759627b7519fc097bd57a32b01				
+system/product/app/VoiceTrigger/lib/arm64/libxmd.so	2304928	9a6a9d86b2724d05c9b7fc2d98a8987b31a9d25fdb824418de4ed7522b707709				
+system/product/app/VoiceTrigger/lib/arm64/libxmsf_init.so	14232	b9f26867f05630c4282a5910c23288b62137c1f5b1c645b10baa5bb65676e4f0				
+system/product/app/XiaoaiRecommendation/XiaoaiRecommendation.apk	49647	38335d4a077afb4228aecb58662fe11d8232d8095910d5e6e3aecfacb2e84e8d	com.xiaomi.aireco	6	0.1.6	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/XiaomiServiceFramework/.replace	81	000e0e5a749b4163f54dd9cfd56f074dc6362ac4628aac3f66935e3a5e41ee33				
+system/product/app/XiaomiServiceFramework/auth-master.apk	65943	55b873cd75f4fbc212252dfd0f7d7ed55c161b6e30faf8ca09fd576987c86ece	com.xiaomi.xmsf	70005019	7.5.19-C	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/XiaomiServiceFramework/auth-xxhdpi.apk	8542	aa1424cb5daf9939018b6941b6ad9b7c6c2a32687e987eab0e8113dbb6d577a9	com.xiaomi.xmsf	70005019		
+system/product/app/XiaomiServiceFramework/prefetch-master.apk	57751	6775efc2b4c5ce901aa7d452db8eaf51b7882ddb5b367451de53231ef4b96e5c	com.xiaomi.xmsf	70005019	7.5.19-C	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/XiaomiServiceFramework/prefetch-xxhdpi.apk	8542	b682860f0647750d0e82de533b6e20831b0b152adaaeefe9407937d6348551d8	com.xiaomi.xmsf	70005019		
+system/product/app/XiaomiServiceFramework/screen_recorder-master.apk	61847	c0c03af8ac04d857133173c2772ec1c5dcd1e25445ee25e9f66610672c28a923	com.xiaomi.xmsf	70005019	7.5.19-C	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/XiaomiServiceFramework/screen_recorder-xxhdpi.apk	8542	9b1be32b7417613c2ffeb2c502bbe7b561b692d1bba79469257104ebfdcf8da1	com.xiaomi.xmsf	70005019		
+system/product/app/XiaomiServiceFramework/split-XiaomiServiceFrameworkCN-arm64_v8a.apk	243710	e19f8bec81a474d0c434187c2df84aa60b8d7f1e79c843832c73b778a7fea85e	com.xiaomi.xmsf	70005019		
+system/product/app/XiaomiServiceFramework/split-XiaomiServiceFrameworkCN-master.apk	7231167	c81b865e108ff1e00023e02380bd4bd00b34e32084980b60a1d8ad15d0b64b51	com.xiaomi.xmsf	70005019	7.5.19-C	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/XiaomiServiceFramework/split-XiaomiServiceFrameworkCN-xxhdpi.apk	112399	d9dfd54fa364b39368aaeb382677b39fe8891d0a446930df7ad2960a598e5d75	com.xiaomi.xmsf	70005019		
+system/product/app/XiaomiServiceFramework/uninstall_relogin-master.apk	33175	4d3542ee6d21c840774685c344acfc46c0e44c1a2a64558c2b3490ab4120d553	com.xiaomi.xmsf	70005019	7.5.19-C	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/XiaomiServiceFramework/uninstall_relogin-xxhdpi.apk	8542	1908096be5c3afc48d532a01666e62a64e25236b70fe2afd1d74525bf20a2ef6	com.xiaomi.xmsf	70005019		
+system/product/app/MIUIVirtualSim/MIUIVirtualSim.apk	24181083	3716704b30befea53ef402ab84ce71c2f51b2f56a413de52296b004b03408d84	com.miui.virtualsim	9120	9.1.2.0	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/app/MIUIVirtualSim/lib/arm64/libMiMainColor.so	362752	652eb3fb8850b46a4df0865c1abf4f3ca5b0084d828dceb5ce547be86e1d1852				
+system/product/app/MIUIVirtualSim/lib/arm64/libQseeR2fServiceJNI.so	83856	69158c6ed88fd1e6e66cc75babf2670de5ca860fe4476a689cd3fd68673c8984				
+system/product/app/MIUIVirtualSim/lib/arm64/liblogan.so	59496	12f82eb0298ea23ac7f69b6b5b14c429d488fef53516ef72f46eedc08679653b				
+system/product/app/MIUIVirtualSim/lib/arm64/libmmkv.so	552264	d69791b096c860ae6f03fd93d1462ba6c636bc067a809e5a40ccf15aa7299de1				
+system/product/app/MIUIVirtualSim/lib/arm64/libseed_keys.so	9928	c1bd0f459de03c2fa9a6dce5392d89ae88d0ce16aaef39087f82c07f9ba8162b				
+system/product/app/MIUIVirtualSim/lib/arm64/libskbcli.so	4761080	60aff6233ae0db5854e1505a64167006565d138938588de161ae9a304579578f				
+system/product/app/MIUIVirtualSim/lib/arm64/libvsim_auth.so	59840	c056a021d738ac840388496edc31080a429956addbd61beab843358797a39e8f				
+system/product/app/MIUIVirtualSim/lib/arm64/libxcrash.so	88360	59d750f332041c47bb5ac21e6605db89130c9a242f015d5a4a82b16f88014421				
+system/product/app/MIUIVirtualSim/lib/arm64/libxcrash_dumper.so	129344	0933b5353c5bd90d27c1271ed588f2246432b6b4fff47eb6fd85892d7b5d2f72				
+system/product/etc/permissions/platform-miui-uninstall.xml	174	09ac535f545e02de6cd2ca3f2be850c14770f5267b68a594aaa854fdd6fb2634				
+system/product/fonts/MiSansVF.ttf	19402616	cf3a8fb551ca0b10ad341a613f0c13d8432201ef8532ad120898cccaca66e633				
+system/product/framework/miui-uninstall-empty.jar	1199	f25e7c3174cc76219a4bf5074798df176a25a37a502c940271357e1632779a7b				
+system/product/overlay/FocusXmsOverlay.apk	16730	cc7f71fe0b69b4b465918738944808e88592d49225744560e41e73934a62968e	pudding.focus.xms.overlay	1	1.0	2ebe05e314f10966f25aa5c611cab0ec23b520492f00ef708b12d108de24d6f5
+system/product/overlay/MiuiNewCallSdkResOverlay.apk	8542	eea35c6a9a539e9701e8f1e76ac04f97939751caaa79dafdaf65f74d3c74cfcf	com.newcall.overlay.miui	34	1.0.1	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/overlay/MiuiThemeManagerCnOverlay.apk	8542	3f57b20efe3faa042787a37465f030751f648d4f1a8bfb989db99ad1444a2f27	com.android.thememanager.customthemeconfig.config.overlay	1	1.0	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/overlay/VoiceAssistAndroidOverlay.apk	8542	18fdfaabf09bd55857ba2b73fe3b1117e11ce7ed6bf98a83726f2b51d9524fcc	com.miui.voiceassistoverlay	2	2.0	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/priv-app/Calendar/Calendar.apk	16409126	d7d06b49e6a975840d3caa11a7602a3e41df6c457af5d6bd600417a1e711e830	com.android.calendar	171008130	17.10.8.13	d45f076fe23a1a5b7f486e3ff41547a2023dbfe1fe73353b1e48ebdfed72cc6f
+system/product/priv-app/MIUIContentExtension/MIUIContentExtension.apk	9581680	06445e64bea77924dbff99f3b4fc3fb1f0ef89e8a9a8a0fa1a35e1b9a8433928	com.miui.contentextension	40019	4.1.9	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/priv-app/MIUIYellowPage/MIUIYellowPage.apk	6453776	edb481726756796f87fb9757798d1a84cb88acc73835be315751229a7cd4f5b9	com.miui.yellowpage	230260506	23.0.260506	e4431422e25ae61fa3655e9f908a9b40da2acd67fab99b737027c21fd22b7d40
+system/product/priv-app/MiuiGallery/MiuiGallery.apk	140887222	41dc1c5c9ee8cdecc8552b271ee349a336848cae38a6aab3e69f5c91796bdf53	com.miui.gallery	5000606	5.0.6.6-0610-R	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/priv-app/MiuiGallery/lib/arm64/libHyperMediaSDK.so	5533632	5690733c3396e3430b78d7ddec69b95df84ee0abe6b801621dd43333228109f1				
+system/product/priv-app/MiuiGallery/lib/arm64/libHyperSurfaceView.so	877696	00972c20653dfd8bdf5b753a8722f2c83f303d6bf2df990592da3b60097272f4				
+system/product/priv-app/MiuiGallery/lib/arm64/libHyperUiMiMainColor.so	487368	2c1375e9bbaf72b79f274f5a7a48e2acbdd13a91a1abe4db2e6164bb8d32fe15				
+system/product/priv-app/MiuiGallery/lib/arm64/libapp.so	18678784	fd7a1d02f0356b209c9e80615c65918a1b3bdaec5e8a66076a6ff9fe907db4d4				
+system/product/priv-app/MiuiGallery/lib/arm64/libapp_gallery.so	54528960	5ae57303cadc8b6475135b1ea082c548188866357a037b4bed21f69be2535370				
+system/product/priv-app/MiuiGallery/lib/arm64/libbytehook.so	59080	1fa39f206cf1cb5863dc3770ec3a21339921364e647a3ab4dbb094eab83676d8				
+system/product/priv-app/MiuiGallery/lib/arm64/libc++_shared.so	1293088	ca8d7f3b96ef4bed644aa81025973403c4f10dfd81400ae131963a65dca8f260				
+system/product/priv-app/MiuiGallery/lib/arm64/libdatastore_shared_counter.so	7224	d0260aea3810909973a6e7e493ceb195877dcea7cac00bb12b6c726ab8f39436				
+system/product/priv-app/MiuiGallery/lib/arm64/libheifrust.so	2610728	5c4859ce6a158532eeb05507983f1cc45bce4b9ad71460ca175c83bb7fe28c58				
+system/product/priv-app/MiuiGallery/lib/arm64/libhyper_image.so	12841144	d4e9bcf597f48a8e3f4cd45c1b96e101c2019d2025d8e60336f10138e5d23c9e				
+system/product/priv-app/MiuiGallery/lib/arm64/libhyper_os_flutter.so	11458136	83324972e03d543857fddeca62d74bb02cbbad34ba5257875600e93e0a2c7467				
+system/product/priv-app/MiuiGallery/lib/arm64/libmiffmpeg.so	17492376	dda68c48135a3a752605ce6cb96f14950f75f1585705bafd21c2031e74f64631				
+system/product/priv-app/MiuiGallery/lib/arm64/libmisqlite3.so	1761216	f1b8ffa2bf8ac0936396d99c5dfb17dfce0dbb3e0718f31519fc59d26fd14c31				
+system/product/priv-app/MiuiGallery/lib/arm64/libmivklumos.so	234080	34fa292df98172392cbb715316f2061527b63002800ae6f14556d0d4005e2627				
+system/product/priv-app/MiuiGallery/lib/arm64/libomp.so	961704	1ed19e1f25c1716d1b6cb09db04b91474b7109aa0b77c2473eea7086576ad37e				
+system/product/priv-app/MiuiGallery/lib/arm64/libraw.so	1160712	f86421103559dbaaad68e3a460087fb1a332d1a32102c54916c0a79619ab9569				
+system/product/priv-app/MiuiGallery/lib/arm64/libresources_frb.so	2422464	b3d759e1778857606ad5f5024b65d272d9ae362232e7b2b3dab7af54f5f99310				
+system/product/priv-app/MiuiGallery/lib/arm64/libretriever_phone.so	378904	1d8a47ef21f50c9f805fa481d7e796caf059e45652dfdb81b2c5397b806e322e				
+system/product/priv-app/MiuiGallery/lib/arm64/libxcrash.so	90872	b114fbd64da14bc0e973b0936d9334ae8719961e8172469d3ef23235bead14cf				
+system/product/priv-app/MiuiGallery/lib/arm64/libxcrash_dumper.so	118480	9eeb4cab1223be178a1d4482fb86f298ef51ef57610d46767f5a650f54b6ed09				
+system/product/priv-app/Mms/Mms.apk	19281431	8d225d1694e8330400acb2e28a7b66bccd3b9d250b448387775ea5ed01b420a9	com.android.mms	170002035	17.0.2.35	d45f076fe23a1a5b7f486e3ff41547a2023dbfe1fe73353b1e48ebdfed72cc6f
+system/product/priv-app/NewCall/NewCall.apk	174792604	1dc80a12d92e77c8e3bd232f3545cd6fee7d7f8ff481950ea9761308b887e906	com.newcall	1001200	1.0.11	864d4b8f89c138cd108c8bc1b0ce23805505c4ab5f9dde2ec40bc0379d087b96
+system/product/priv-app/PersonalAssistant/PersonalAssistant.apk	24007952	c4970541a8763dce733cf96ecef5bd345bd58c36670c6753b2302cf898799fcc	com.miui.personalassistant	253079	25.30.79-05091946	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/priv-app/SoundRecorder/SoundRecorder.apk	27429366	42a213c8de5805d1dd17447f35b343d9e12913d63d0f52ed6540348479ed01ad	com.android.soundrecorder	708093	7.8.9.3-bc34f3e22	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/priv-app/SoundRecorder/lib/arm64/libairecorder.so	236952	89d3820fadf315eb2f664d7213f53c7685300022e9973e091ded288dbc94e745				
+system/product/priv-app/SoundRecorder/lib/arm64/libaivs_jni.so	727432	0b959cc4cbab062642be4811500ff56928fcd1bf00cffc90e1c646428a2f098f				
+system/product/priv-app/SoundRecorder/lib/arm64/libconfig.so	206840	a3939a0847e6adaea91d47e7195c77291d782bc9ef381d005253bf8686534f84				
+system/product/priv-app/SoundRecorder/lib/arm64/libjniloader.so	5808	a432f3dd28997a84115057dee5ce8a41e68a08e9c9d0fd5cb360d7e908f92497				
+system/product/priv-app/SoundRecorder/lib/arm64/libmievent.so	4440	d404076edc917984b6af87c5013c0e428f5acd9cf3fa18211e1124937ee24d3f				
+system/product/priv-app/SoundRecorder/lib/arm64/libmiffmpeg.so	2124616	8a635f9a1de6cb77aa2404b51630a0018c8a5e627ba76073a010a8b5839701d3				
+system/product/priv-app/SoundRecorder/lib/arm64/libvad2.so	1591568	386f048d2fb517e75c4638997a449fa45b277df5232e51be0e66b5f3186556ed				
+system/product/priv-app/SoundRecorder/lib/arm64/libvlcjni.so	2728888	b081b45053bc7f494caa3b6a22f8962e36320ad5b16b84a66ea20ca9f6f91234				
+system/product/priv-app/SoundRecorder/lib/arm64/libxmd.so	2313120	beeae157a49bd489abfd1c8dbf4cf114e915fc316d3e2b491a23c9b227302ab0				
+system/product/priv-app/Weather/Weather.apk	52074942	ca21efdb0b33afdf0c5cd2257613aeebdf41d355f76a75d1ac2d5fb8a838b2ed	com.miui.weather2	17010023	17.1.0.23-R	d45f076fe23a1a5b7f486e3ff41547a2023dbfe1fe73353b1e48ebdfed72cc6f
+system/product/priv-app/Weather/lib/arm64/libapp.so	9896864	956ece0c30e4380f21c59fbc9f3be426fbe932baf22c9ebdf73220cad25a0e8f				
+system/product/priv-app/Weather/lib/arm64/libc++_shared.so	1026616	dfdbbc6d633d7d7734271ee3b7a288976393ec0ec38f1fedc99360f266ad5279				
+system/product/priv-app/Weather/lib/arm64/libdatastore_shared_counter.so	7112	d3e48717c9aa147e0ab21063ba0e8e0211cabf8bf40b222640829519edbf58e1				
+system/product/priv-app/Weather/lib/arm64/libhyper_opengl.so	1233856	2536c8042b912781d0f2b85a0221dfe44b60a1e33050677c825113598a506027				
+system/product/priv-app/Weather/lib/arm64/libhyper_os_flutter.so	11267336	2e57c39108319ebfa80d9acd43c02720b1383770e769ec606192fd09acf6ca40				
+system/product/priv-app/Weather/lib/arm64/libmgl-physics.so	428584	cecbccbb16879638c257b7a2edeeefe48bf9660632a9f400dc0aaa738a2bed19				
+system/product/priv-app/Weather/lib/arm64/libmglnative.so	2128240	241623acab6ae56379701adf9ae542fb67cbd7e475e40463e3336dd229171cc5				
+system/product/priv-app/Weather/lib/arm64/libmisqlite3.so	1456352	8887cbe08b86c24c169e5ad046be22a44834139ab66e87f02a8cd63d60e19425				
+system/product/priv-app/Weather/lib/arm64/libsqlite3.so	1330368	b1c39fb6a041463a995f0e2caf06e81eafe4b4e26aee1bd6077f4dce5e10fa0e				
+system/product/priv-app/Weather/lib/arm64/libweather_app.so	4862704	fa14fbf4628aca69fe60cf35cd7cf8525390c4c12a793b1886e2589124f8a0fb				
+system/system_ext/app/digitalkey/digitalkey.apk	2809741	5754e30a9abbf63e0979635a3fb2139c2ae5663754dcbc0969ff27f7f1971577	com.xiaomi.digitalkey	247	13.0.47	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025
+system/product/priv-app/MIUIQuickSearchBox/MIUIQuickSearchBox.apk	12390800	fe78f5b566f4e07840af3c254bffe74918b2d1afe824d60bb4d867638950b508	com.android.quicksearchbox	212020011	12.2.0.061011	c9009d01ebf9f5d0302bc71b2fe9aa9a47a432bba17308a3111b75d7b2149025

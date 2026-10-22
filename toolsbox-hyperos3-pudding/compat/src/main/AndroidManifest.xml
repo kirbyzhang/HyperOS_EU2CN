@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries>
+        <package android:name="com.android.calendar" />
+        <package android:name="com.android.soundrecorder" />
+        <package android:name="com.android.thememanager" />
+        <package android:name="com.mfashiongallery.emag" />
+        <package android:name="com.miui.aod" />
+        <package android:name="com.miui.contentcatcher" />
+        <package android:name="com.miui.mediaeditor" />
+        <package android:name="com.miui.personalassistant" />
+        <package android:name="com.miui.screenrecorder" />
+        <package android:name="com.miui.weather2" />
+        <package android:name="com.xiaomi.payment" />
+        <package android:name="com.android.mms" />
+    </queries>
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:description="@string/app_description"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        <activity android:name="local.pudding.eulocalization.MaintenanceActivity" android:exported="false" />
+        <activity android:name="local.pudding.eulocalization.CacheRepairActivity" android:exported="false" />
+        <activity android:name=".RuntimeStatusActivity" android:exported="false" />
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposedminversion" android:value="93" />
+        <meta-data android:name="xposedsharedprefs" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="配合 HyperOS_EU2CN 模块提供国行功能兼容、运行状态检查和 KernelSU 后台挂载例外配置。" />
+        <meta-data android:name="xposedscope" android:resource="@array/xposed_scopes" />
+    </application>
+</manifest>

@@ -1,0 +1,61 @@
+plugins {
+    id 'com.android.application' version '8.10.1'
+}
+
+android {
+    namespace 'local.pudding.eulocalization'
+    compileSdk 35
+
+    defaultConfig {
+        // v4 uses a new package id because the private signing key used by the
+        // earlier internal test APK is unavailable. This avoids an in-place
+        // signer mismatch if v3 was ever installed.
+        applicationId 'local.pudding.eulocalization.v4'
+        minSdk 28
+        targetSdk 35
+        versionCode 319006
+        versionName 'OS3.0.319.0-pudding-4.2'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compileOnly 'de.robv.android.xposed:api:82'
+}
+
+// Standalone module action helper. It is a DEX, not another installed APK.
+def ksuHelperOutput = file("${System.getenv('GRADLE_USER_HOME') ?: gradle.gradleUserHomeDir}/pudding-ksu-helper")
+def compileKsuHelper = tasks.register('compileKsuMountHelper', JavaCompile) {
+    source fileTree('../ksu-helper/src') { include '**/*.java' }
+    source fileTree('../ksu-shared/src') { include '**/*.java' }
+    classpath = files("${android.sdkDirectory}/platforms/android-35/android.jar")
+    destinationDirectory = file("$ksuHelperOutput/classes")
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+    options.encoding = 'UTF-8'
+}
+tasks.register('ksuMountHelper') {
+    dependsOn compileKsuHelper
+    inputs.dir file('../ksu-helper/src')
+    inputs.dir file('../ksu-shared/src')
+    outputs.file file("$ksuHelperOutput/dex/classes.dex")
+    doLast {
+        def dexDir = file("$ksuHelperOutput/dex")
+        dexDir.mkdirs()
+        exec {
+            commandLine(["${android.sdkDirectory}/build-tools/35.0.0/d8", '--min-api', '28',
+                         '--lib', "${android.sdkDirectory}/platforms/android-35/android.jar",
+                         '--output', dexDir.absolutePath] + fileTree("$ksuHelperOutput/classes").matching { include '**/*.class' }.files.collect { it.absolutePath })
+        }
+    }
+}

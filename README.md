@@ -111,7 +111,6 @@ KernelSU 的「卸载模块」可能使应用无法读取模块提供的 APK，�
 
 - [构建说明](docs/BUILDING.md)：编译兼容层、辅助 DEX 和打包自用模块。
 - [配置说明](docs/CONFIGURATION.md)：安装选项、作用范围与依赖。
-- [验证记录](docs/VALIDATION.md)：已验证结果、历史候选和待验证项。
 - [更新记录](CHANGELOG.md)：版本变化。
 
 自写代码使用 [GPL-3.0-only](LICENSE)。第三方 APK、字体、系统库和上游工具保留各自权利，项目许可不授予这些组件的再分发权，详见 [第三方组件说明](THIRD_PARTY_NOTICES.md)。

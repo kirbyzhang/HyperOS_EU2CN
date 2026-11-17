@@ -47,8 +47,12 @@
 | --- | --- |
 | `HyperOS_EU2CN_OS318.0.1.zip` | 完整模块，在 KernelSU 中安装，包含兼容层安装文件 |
 | `HyperOS_EU2CN_Compat_OS318.0.1.apk` | 独立兼容层，用于单独安装或更新；国行应用由模块提供 |
+| `HyperOS_EU2CN_Compat_OS318.0.1_weather-map-fix1.apk` | 降水地图独立修复，覆盖安装原兼容层，保留数据与作用域 |
 | `EU2CN_Config.ini` | 可选的安装配置模板 |
 | `SHA256SUMS` | 下载文件的 SHA-256 校验清单 |
+| `SHA256SUMS_weather-map-fix1.txt` | 降水地图独立修复 APK 的校验清单 |
+
+**降水地图修复：**若点击地图后没有反应，请从 [OS318.0.1 发布页](https://github.com/kirbyzhang/HyperOS_EU2CN/releases/tag/OS318.0.1) 下载 `weather-map-fix1` APK 覆盖安装，并在 LSPosed 保留“小米系统服务”作用域及“天气国行地区兼容”开关。安装后重启手机使新兼容层生效。原完整 ZIP 和旧独立 APK 尚未包含此修复。小米 17 / EU OS318 已确认地图及降水内容正常，完整重启后的行为和其他环境仍需验证。
 
 源码仓库不包含 ROM、第三方 APK、字体或签名私钥。源码构建方法及所需载荷见 [构建说明](docs/BUILDING.md)。
 

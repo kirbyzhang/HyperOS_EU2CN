@@ -27,6 +27,8 @@
 | 天气、主题、黄页、电话的国行环境 | 对应应用和兼容层作用域，以及兼容层中的应用开关；通过各自进程内的国行环境适配实现，不依赖 `HookInternational` |
 | KernelSU 后台挂载例外 | 兼容层及其 KernelSU 作用域；与上述国际环境选项无依赖，不需要授予这些系统应用 Root |
 
+“天气国行地区兼容”同时控制降水概率地图修复。兼容层需要包含“小米系统服务”作用域；修复只放行简体中文降水地图初始化时的地区检查，保留小米系统服务的国际环境标志。关闭该开关后，地图恢复原有地区判断。
+
 `HookGoogleHome` 与国行搜索并不矛盾：前者维持桌面总体环境，后者只处理搜索手势和搜索提供者。
 
 公开模板的普通安装组件全部为 `false`，由用户选择。保留五个原有兼容子项默认值：`HookXSpace`、`HookXSpaceSafety`、`HookGoogleHome`、`HookWidgets`、`HookSystemUiIcons`。当 `ToolsBox=false` 时，这些子项不生效。普通“一键全选”也不会自动开启 `CnXmsf`、`HookFcm`、`HookInternational`。

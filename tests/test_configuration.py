@@ -43,6 +43,33 @@ public final class PolicyCheck {
             subprocess.run(["javac", "-encoding", "UTF-8", "-d", str(work), str(source), str(harness)], check=True, capture_output=True)
             subprocess.run(["java", "-cp", str(work), "PolicyCheck"], check=True, capture_output=True)
 
+    @unittest.skipUnless(shutil.which("javac") and shutil.which("java"), "JDK required")
+    def test_rain_map_keeps_switch_language_and_other_callers(self):
+        cache = ROOT / ".cache/tmp"
+        cache.mkdir(parents=True, exist_ok=True)
+        with tempfile.TemporaryDirectory(prefix="rain-map-policy-", dir=cache) as directory:
+            work = Path(directory)
+            harness = work / "RainMapCheck.java"
+            harness.write_text('''import java.util.Locale;
+import local.pudding.weathercompat.WeatherMapPolicy;
+public final class RainMapCheck {
+ public static void main(String[] ignored) {
+  Locale[] locales={Locale.SIMPLIFIED_CHINESE,Locale.TRADITIONAL_CHINESE,
+    Locale.US,Locale.CHINESE,Locale.forLanguageTag("zh-SG"),null};
+  for(int mask=0;mask<8;mask++) for(Locale locale:locales) {
+   boolean enabled=(mask&1)!=0,initializing=(mask&2)!=0,original=(mask&4)!=0;
+   boolean override=WeatherMapPolicy.shouldOverride(enabled,initializing,original,locale);
+   if(override && (!enabled || !initializing || original || !Locale.SIMPLIFIED_CHINESE.equals(locale)))
+    throw new AssertionError("outside the rain map repair boundary");
+   if(enabled && initializing && !original && Locale.SIMPLIFIED_CHINESE.equals(locale) && !override)
+    throw new AssertionError("EU simplified-Chinese rain map still blocked");
+  }
+ }
+}''')
+            source = ROOT / "toolsbox-hyperos3-pudding/compat/src/main/java/local/pudding/weathercompat/WeatherMapPolicy.java"
+            subprocess.run(["javac", "-encoding", "UTF-8", "-d", str(work), str(source), str(harness)], check=True, capture_output=True)
+            subprocess.run(["java", "-cp", str(work), "RainMapCheck"], check=True, capture_output=True)
+
 
 if __name__ == "__main__":
     unittest.main()

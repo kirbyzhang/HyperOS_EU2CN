@@ -2,6 +2,7 @@ local.pudding.weathercompat.SelfModule
 local.pudding.weathercompat.RuntimeEvidenceModule
 local.pudding.eulocalization.MainModule
 local.pudding.weathercompat.RegionCompatModule
+local.pudding.weathercompat.WeatherMapModule
 local.pudding.weathercompat.MmsRegionModule
 local.pudding.weathercompat.NotificationModule
 local.pudding.weathercompat.CnSearchModule
